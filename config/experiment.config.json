@@ -1,0 +1,107 @@
+{
+  "sut": {
+    "name": "Pesantren PERSIS 27 Situaksan (staging)",
+    "baseUrl": "https://staging.pesantrenpersis27.com",
+    "routes": [
+      { "id": "home",         "path": "/",                  "label": "Beranda" },
+      { "id": "profil",       "path": "/profil",            "label": "Profil pesantren" },
+      { "id": "berita",       "path": "/berita",            "label": "Daftar berita" },
+      { "id": "berita-detail","path": "/berita/1",          "label": "Detail berita" },
+      { "id": "program",      "path": "/program",           "label": "Program pendidikan" },
+      { "id": "ppdb",         "path": "/ppdb",              "label": "Informasi PPDB" },
+      { "id": "pendaftaran",  "path": "/pendaftaran",       "label": "Formulir pendaftaran" },
+      { "id": "kontak",       "path": "/kontak",            "label": "Kontak" },
+      { "id": "galeri",       "path": "/galeri",            "label": "Galeri" }
+    ],
+    "notes": "SESUAIKAN daftar route ini dengan struktur staging yang sebenarnya sebelum menjalankan 01-capture-dom.js. Jalankan 'node scripts/01-capture-dom.js --discover' untuk menelusuri link internal secara otomatis."
+  },
+
+  "conditions": {
+    "B0": {
+      "label": "Llama 3 tanpa konteks",
+      "retrieval": false,
+      "sources": [],
+      "rawDom": false
+    },
+    "B1": {
+      "label": "Llama 3 + DOM mentah tanpa retrieval",
+      "retrieval": false,
+      "sources": [],
+      "rawDom": true
+    },
+    "B2": {
+      "label": "RAG retrieval DOM saja",
+      "retrieval": true,
+      "sources": ["dom"],
+      "rawDom": false
+    },
+    "P": {
+      "label": "RAG penuh (requirement + DOM + test historis)",
+      "retrieval": true,
+      "sources": ["requirement", "dom", "historical_test"],
+      "rawDom": false
+    },
+    "P_no_req": {
+      "label": "Ablasi: tanpa requirement",
+      "retrieval": true,
+      "sources": ["dom", "historical_test"],
+      "rawDom": false,
+      "ablation": true
+    },
+    "P_no_hist": {
+      "label": "Ablasi: tanpa test historis",
+      "retrieval": true,
+      "sources": ["requirement", "dom"],
+      "rawDom": false,
+      "ablation": true
+    },
+    "P_no_dom": {
+      "label": "Ablasi: tanpa DOM snapshot",
+      "retrieval": true,
+      "sources": ["requirement", "historical_test"],
+      "rawDom": false,
+      "ablation": true
+    }
+  },
+
+  "embedding": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "dimension": 384,
+    "normalize": true,
+    "chunkSize": 900,
+    "chunkOverlap": 150
+  },
+
+  "retrieval": {
+    "topKPerSource": { "requirement": 3, "dom": 4, "historical_test": 3 },
+    "topKSingleSource": 8,
+    "minScore": 0.15,
+    "contextCharBudget": 12000
+  },
+
+  "generation": {
+    "provider": "ollama",
+    "endpoint": "http://localhost:11434/api/generate",
+    "model": "llama3:8b",
+    "temperature": 0.2,
+    "topP": 0.9,
+    "numCtx": 8192,
+    "numPredict": 1400,
+    "seeds": [11, 22, 33, 44, 55],
+    "greedyReferenceRun": { "enabled": true, "temperature": 0.0, "seed": 0 },
+    "timeoutSeconds": 300
+  },
+
+  "execution": {
+    "flakinessRepeats": 10,
+    "repairMaxIterations": 2,
+    "playwrightTimeoutMs": 30000,
+    "workers": 1
+  },
+
+  "analysis": {
+    "alpha": 0.05,
+    "primaryComparison": ["B0", "P"],
+    "allComparisons": [["B0", "P"], ["B1", "P"], ["B2", "P"], ["B0", "B2"]]
+  }
+}

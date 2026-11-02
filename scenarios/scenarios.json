@@ -1,0 +1,256 @@
+{
+  "sut": "Pesantren PERSIS 27 Situaksan (staging)",
+  "note": "Sesuaikan start_path dan detail ekspektasi dengan struktur staging yang sebenarnya setelah menjalankan 01-capture-dom.js --discover. Target minimum 40 skenario; 24 di bawah ini adalah kerangka awal yang bisa diperluas per kategori.",
+  "categories": {
+    "navigation": "Perpindahan antar halaman dan konsistensi menu",
+    "information": "Penemuan informasi statis dan pencarian",
+    "news": "Daftar dan detail berita",
+    "registration": "Alur PPDB dan validasi formulir",
+    "contact": "Formulir kontak dan informasi hubungi kami",
+    "resilience": "Perilaku pada masukan tidak wajar dan kondisi batas"
+  },
+  "scenarios": [
+    {
+      "id": "NAV01",
+      "category": "navigation",
+      "title": "Membuka beranda dan memverifikasi identitas situs",
+      "start_route": "home",
+      "start_path": "/",
+      "description": "Pengunjung membuka beranda. Halaman harus termuat dengan judul dokumen yang memuat nama pesantren dan menampilkan menu navigasi utama.",
+      "expected": [
+        "Judul dokumen memuat nama pesantren",
+        "Menu navigasi utama terlihat",
+        "Judul utama halaman terlihat"
+      ]
+    },
+    {
+      "id": "NAV02",
+      "category": "navigation",
+      "title": "Berpindah dari beranda ke halaman profil",
+      "start_route": "home",
+      "start_path": "/",
+      "description": "Pengunjung mengeklik tautan profil pada menu navigasi. URL harus berubah ke halaman profil dan konten profil harus tampil.",
+      "expected": ["URL memuat segmen profil", "Judul halaman profil terlihat"]
+    },
+    {
+      "id": "NAV03",
+      "category": "navigation",
+      "title": "Berpindah dari beranda ke halaman program pendidikan",
+      "start_route": "home",
+      "start_path": "/",
+      "description": "Pengunjung membuka halaman program pendidikan melalui menu navigasi dan melihat daftar jenjang atau program yang tersedia.",
+      "expected": ["URL memuat segmen program", "Daftar program terlihat"]
+    },
+    {
+      "id": "NAV04",
+      "category": "navigation",
+      "title": "Kembali ke beranda melalui logo situs",
+      "start_route": "profil",
+      "start_path": "/profil",
+      "description": "Dari halaman profil, pengunjung mengeklik logo atau nama situs pada header untuk kembali ke beranda.",
+      "expected": ["URL kembali ke akar situs", "Konten beranda terlihat"]
+    },
+    {
+      "id": "NAV05",
+      "category": "navigation",
+      "title": "Menu navigasi konsisten di seluruh halaman utama",
+      "start_route": "home",
+      "start_path": "/",
+      "description": "Pengunjung menelusuri beranda, profil, dan berita secara berurutan. Menu navigasi utama harus tetap tersedia pada ketiga halaman.",
+      "expected": ["Menu navigasi terlihat pada setiap halaman yang dikunjungi"]
+    },
+    {
+      "id": "NAV06",
+      "category": "navigation",
+      "title": "Membuka halaman kontak dari tautan footer",
+      "start_route": "home",
+      "start_path": "/",
+      "description": "Pengunjung menggulir ke bagian footer dan membuka halaman kontak dari sana.",
+      "expected": ["URL memuat segmen kontak", "Informasi kontak terlihat"]
+    },
+    {
+      "id": "NAV07",
+      "category": "navigation",
+      "title": "Membuka halaman galeri dan memverifikasi konten visual",
+      "start_route": "home",
+      "start_path": "/",
+      "description": "Pengunjung membuka halaman galeri melalui menu dan memastikan setidaknya satu gambar termuat.",
+      "expected": ["URL memuat segmen galeri", "Setidaknya satu elemen gambar terlihat"]
+    },
+    {
+      "id": "NAV08",
+      "category": "navigation",
+      "title": "Menangani alamat halaman yang tidak dikenal",
+      "start_route": "home",
+      "start_path": "/halaman-tidak-ada-12345",
+      "description": "Pengunjung membuka alamat yang tidak terdaftar. Situs harus menampilkan halaman kesalahan yang jelas, bukan halaman kosong.",
+      "expected": ["Halaman menampilkan indikasi tidak ditemukan", "Navigasi kembali ke beranda tersedia"]
+    },
+    {
+      "id": "INF01",
+      "category": "information",
+      "title": "Membaca visi dan misi pada halaman profil",
+      "start_route": "profil",
+      "start_path": "/profil",
+      "description": "Pengunjung membuka halaman profil dan mencari bagian visi dan misi pesantren.",
+      "expected": ["Bagian visi terlihat", "Bagian misi terlihat"]
+    },
+    {
+      "id": "INF02",
+      "category": "information",
+      "title": "Membaca informasi jadwal atau alur PPDB",
+      "start_route": "ppdb",
+      "start_path": "/ppdb",
+      "description": "Calon santri membuka halaman PPDB untuk membaca alur dan jadwal pendaftaran.",
+      "expected": ["Judul halaman PPDB terlihat", "Informasi alur atau jadwal pendaftaran terlihat"]
+    },
+    {
+      "id": "INF03",
+      "category": "information",
+      "title": "Mencari informasi melalui kolom pencarian",
+      "start_route": "home",
+      "start_path": "/",
+      "description": "Pengunjung memasukkan kata kunci pada kolom pencarian lalu mengirimkannya. Halaman hasil pencarian harus tampil.",
+      "expected": ["Halaman hasil pencarian terbuka", "Kata kunci yang dicari tercermin pada halaman hasil"]
+    },
+    {
+      "id": "INF04",
+      "category": "information",
+      "title": "Pencarian dengan kata kunci yang tidak ada hasilnya",
+      "start_route": "home",
+      "start_path": "/",
+      "description": "Pengunjung mencari kata kunci acak yang dipastikan tidak ada. Situs harus menampilkan pesan hasil kosong, bukan halaman rusak.",
+      "expected": ["Pesan hasil tidak ditemukan terlihat", "Halaman tetap dapat dinavigasi"]
+    },
+    {
+      "id": "INF05",
+      "category": "information",
+      "title": "Memverifikasi alamat dan kontak pesantren pada halaman kontak",
+      "start_route": "kontak",
+      "start_path": "/kontak",
+      "description": "Pengunjung membuka halaman kontak untuk memastikan alamat, nomor telepon, dan surel tercantum.",
+      "expected": ["Alamat terlihat", "Kontak telepon atau surel terlihat"]
+    },
+    {
+      "id": "NWS01",
+      "category": "news",
+      "title": "Membuka daftar berita dan memverifikasi ada item",
+      "start_route": "berita",
+      "start_path": "/berita",
+      "description": "Pengunjung membuka halaman berita. Daftar berita harus memuat setidaknya satu item dengan judul.",
+      "expected": ["Daftar berita terlihat", "Jumlah item berita lebih dari nol"]
+    },
+    {
+      "id": "NWS02",
+      "category": "news",
+      "title": "Membuka detail berita dari daftar",
+      "start_route": "berita",
+      "start_path": "/berita",
+      "description": "Pengunjung mengeklik judul berita pertama pada daftar dan membuka halaman detailnya.",
+      "expected": ["URL berubah ke halaman detail berita", "Judul berita terlihat pada halaman detail", "Isi berita terlihat"]
+    },
+    {
+      "id": "NWS03",
+      "category": "news",
+      "title": "Judul berita pada daftar konsisten dengan halaman detail",
+      "start_route": "berita",
+      "start_path": "/berita",
+      "description": "Pengunjung mencatat judul berita pertama pada daftar, membuka detailnya, lalu memastikan judul pada halaman detail sama.",
+      "expected": ["Judul pada halaman detail sama dengan judul pada daftar"]
+    },
+    {
+      "id": "NWS04",
+      "category": "news",
+      "title": "Menggunakan navigasi halaman pada daftar berita",
+      "start_route": "berita",
+      "start_path": "/berita",
+      "description": "Pengunjung berpindah ke halaman kedua daftar berita melalui kontrol paginasi.",
+      "expected": ["Halaman kedua terbuka", "Item berita pada halaman kedua berbeda dari halaman pertama"]
+    },
+    {
+      "id": "NWS05",
+      "category": "news",
+      "title": "Memverifikasi tanggal terbit tercantum pada detail berita",
+      "start_route": "berita-detail",
+      "start_path": "/berita/1",
+      "description": "Pengunjung membuka satu berita dan memastikan tanggal terbit ditampilkan.",
+      "expected": ["Tanggal terbit terlihat pada halaman detail"]
+    },
+    {
+      "id": "NWS06",
+      "category": "news",
+      "title": "Kembali ke daftar berita dari halaman detail",
+      "start_route": "berita-detail",
+      "start_path": "/berita/1",
+      "description": "Dari halaman detail berita, pengunjung kembali ke daftar berita menggunakan navigasi peramban maupun tautan yang tersedia.",
+      "expected": ["Halaman daftar berita tampil kembali", "Daftar berita terlihat"]
+    },
+    {
+      "id": "REG01",
+      "category": "registration",
+      "title": "Membuka formulir pendaftaran dari halaman PPDB",
+      "start_route": "ppdb",
+      "start_path": "/ppdb",
+      "description": "Calon santri mengeklik tombol daftar pada halaman PPDB dan diarahkan ke formulir pendaftaran.",
+      "expected": ["Halaman formulir pendaftaran terbuka", "Formulir pendaftaran terlihat"]
+    },
+    {
+      "id": "REG02",
+      "category": "registration",
+      "title": "Formulir pendaftaran menolak kiriman kosong",
+      "start_route": "pendaftaran",
+      "start_path": "/pendaftaran",
+      "description": "Calon santri langsung menekan tombol kirim tanpa mengisi apa pun. Formulir harus menolak dan menampilkan penanda kesalahan pada field wajib.",
+      "expected": ["Formulir tidak terkirim", "Penanda kesalahan pada field wajib terlihat"]
+    },
+    {
+      "id": "REG03",
+      "category": "registration",
+      "title": "Formulir pendaftaran menolak format surel yang tidak sah",
+      "start_route": "pendaftaran",
+      "start_path": "/pendaftaran",
+      "description": "Calon santri mengisi field surel dengan teks tanpa tanda at, lalu mengirimkan formulir.",
+      "expected": ["Pesan kesalahan format surel terlihat", "Formulir tidak berpindah halaman"]
+    },
+    {
+      "id": "REG04",
+      "category": "registration",
+      "title": "Mengisi seluruh field wajib pada formulir pendaftaran",
+      "start_route": "pendaftaran",
+      "start_path": "/pendaftaran",
+      "description": "Calon santri mengisi seluruh field wajib dengan data uji yang valid. Verifikasi dilakukan pada nilai yang tersimpan di field, TANPA menekan tombol kirim, agar tidak mencemari basis data staging.",
+      "expected": [
+        "Setiap field wajib berisi nilai yang dimasukkan",
+        "Tidak ada penanda kesalahan yang muncul",
+        "Formulir tidak dikirimkan"
+      ]
+    },
+    {
+      "id": "REG05",
+      "category": "registration",
+      "title": "Field nomor telepon menolak masukan huruf",
+      "start_route": "pendaftaran",
+      "start_path": "/pendaftaran",
+      "description": "Calon santri memasukkan huruf pada field nomor telepon. Field harus menolak atau menandai masukan tersebut.",
+      "expected": ["Penanda kesalahan pada field telepon terlihat, atau nilai huruf tidak diterima"]
+    },
+    {
+      "id": "REG06",
+      "category": "registration",
+      "title": "Daftar pilihan jenjang pendidikan tersedia dan dapat dipilih",
+      "start_route": "pendaftaran",
+      "start_path": "/pendaftaran",
+      "description": "Calon santri membuka daftar pilihan jenjang pada formulir dan memilih salah satu opsi.",
+      "expected": ["Daftar pilihan memiliki lebih dari satu opsi", "Opsi yang dipilih tercatat pada field"]
+    },
+    {
+      "id": "RES01",
+      "category": "resilience",
+      "title": "Formulir menahan masukan yang sangat panjang",
+      "start_route": "pendaftaran",
+      "start_path": "/pendaftaran",
+      "description": "Calon santri memasukkan teks sangat panjang pada field nama. Halaman harus tetap responsif dan tidak rusak tata letaknya.",
+      "expected": ["Halaman tetap dapat diinteraksikan", "Field tetap terlihat"]
+    }
+  ]
+}

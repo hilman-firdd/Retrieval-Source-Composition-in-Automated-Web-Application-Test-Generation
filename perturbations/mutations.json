@@ -1,0 +1,64 @@
+{
+  "kind": "dom_mutation",
+  "purpose": "Mengukur Locator Robustness. Setiap perturbasi mengubah struktur presentasi halaman tanpa mengubah perilaku fungsionalnya. Skrip pengujian yang baik SEHARUSNYA TETAP LOLOS.",
+  "rationale": "Mutasi dirancang meniru pola perubahan front-end yang nyata: penggantian kerangka CSS, penambahan lapisan pembungkus, penyesuaian urutan menu, dan penyuntingan teks tombol. Atribut id dan data-testid sengaja dipertahankan, karena pada praktik pemeliharaan nyata kedua atribut inilah yang paling jarang berubah. Dengan begitu, skrip yang bergantung pada kelas CSS, posisi ordinal, atau XPath absolut akan patah, sementara skrip yang memakai locator stabil akan bertahan. Selisih inilah yang diukur.",
+  "scoring": "Robust jika hasil eksekusi tetap 'passed' pada baseline maupun saat mutasi aktif. Hanya skrip yang lolos di baseline yang dihitung dalam denominator.",
+  "perturbations": [
+    {
+      "id": "M01",
+      "kind": "mutation",
+      "category": "penggantian kerangka CSS",
+      "description": "Seluruh nama kelas diganti dengan token teracak dan deterministik",
+      "script": "let n=0; document.querySelectorAll('[class]').forEach(el => { const parts = el.className.toString().split(/\\s+/).filter(Boolean); el.className = parts.map(() => 'c' + (++n).toString(36)).join(' '); });"
+    },
+    {
+      "id": "M02",
+      "kind": "mutation",
+      "category": "penambahan lapisan pembungkus",
+      "description": "Setiap kontrol formulir dibungkus dua lapis div tambahan sehingga kedalaman DOM berubah",
+      "script": "document.querySelectorAll('form input, form select, form textarea, form button').forEach(el => { const outer = document.createElement('div'); const inner = document.createElement('div'); el.parentNode.insertBefore(outer, el); outer.appendChild(inner); inner.appendChild(el); });"
+    },
+    {
+      "id": "M03",
+      "kind": "mutation",
+      "category": "perubahan urutan",
+      "description": "Urutan tautan pada menu navigasi dibalik",
+      "script": "document.querySelectorAll('nav ul, nav ol, header ul').forEach(list => { const items = Array.from(list.children).reverse(); items.forEach(i => list.appendChild(i)); });"
+    },
+    {
+      "id": "M04",
+      "kind": "mutation",
+      "category": "penyuntingan teks",
+      "description": "Teks tombol dan tautan diberi spasi ganda dan kapitalisasi berbeda",
+      "script": "document.querySelectorAll('button, a').forEach(el => { if (el.children.length === 0 && el.textContent.trim()) { const t = el.textContent.trim(); el.textContent = '  ' + t.charAt(0).toUpperCase() + t.slice(1).toLowerCase() + '  '; } });"
+    },
+    {
+      "id": "M05",
+      "kind": "mutation",
+      "category": "perubahan tag semantik",
+      "description": "Elemen div pembungkus diganti menjadi section, mengubah jalur XPath absolut",
+      "script": "document.querySelectorAll('main > div, body > div').forEach(d => { const s = document.createElement('section'); Array.from(d.attributes).forEach(a => s.setAttribute(a.name, a.value)); s.innerHTML = d.innerHTML; d.replaceWith(s); });"
+    },
+    {
+      "id": "M06",
+      "kind": "mutation",
+      "category": "penyisipan elemen dekoratif",
+      "description": "Elemen ikon kosong disisipkan sebagai anak pertama setiap tombol, menggeser indeks anak",
+      "script": "document.querySelectorAll('button, .btn, a.button').forEach(b => { const i = document.createElement('span'); i.setAttribute('aria-hidden','true'); i.textContent=''; b.insertBefore(i, b.firstChild); });"
+    },
+    {
+      "id": "M07",
+      "kind": "mutation",
+      "category": "perubahan atribut presentasi",
+      "description": "Atribut style dan title dihapus, atribut data dekoratif ditambahkan",
+      "script": "document.querySelectorAll('*').forEach(el => { el.removeAttribute('style'); el.removeAttribute('title'); }); document.querySelectorAll('div, span').forEach((el,i) => el.setAttribute('data-layout','v2-' + i));"
+    },
+    {
+      "id": "M08",
+      "kind": "mutation",
+      "category": "gabungan",
+      "description": "Kombinasi penggantian kelas, pembungkusan, dan pembalikan urutan sekaligus, meniru redesain menyeluruh",
+      "script": "let n=0; document.querySelectorAll('[class]').forEach(el => { const p = el.className.toString().split(/\\s+/).filter(Boolean); el.className = p.map(() => 'r' + (++n).toString(36)).join(' '); }); document.querySelectorAll('form input, form select, form textarea').forEach(el => { const w = document.createElement('div'); el.parentNode.insertBefore(w, el); w.appendChild(el); }); document.querySelectorAll('nav ul').forEach(list => { Array.from(list.children).reverse().forEach(i => list.appendChild(i)); });"
+    }
+  ]
+}

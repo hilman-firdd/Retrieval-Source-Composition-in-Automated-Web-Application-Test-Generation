@@ -1,0 +1,113 @@
+{
+  "kind": "fault_injection",
+  "purpose": "Mengukur Fault Detection Rate. Setiap perturbasi menanamkan satu cacat perilaku. Skrip pengujian yang baik SEHARUSNYA GAGAL saat cacat aktif. Skrip yang tetap lolos berarti assertionnya tidak bermakna.",
+  "rationale": "Cacat ditanamkan di sisi klien lewat addInitScript, bukan dengan mengubah kode server. Ini menjaga staging tetap utuh, membuat setiap cacat dapat diaktifkan dan dinonaktifkan secara deterministik, dan membuat eksperimen dapat direplikasi peneliti lain tanpa akses ke basis kode SUT.",
+  "scoring": "Terdeteksi jika hasil eksekusi berubah dari 'passed' (baseline) menjadi 'failed' atau 'runtime_error' saat cacat aktif.",
+  "perturbations": [
+    {
+      "id": "F01",
+      "kind": "fault",
+      "category": "validasi formulir",
+      "description": "Semua atribut required dihapus, sehingga formulir pendaftaran menerima kiriman kosong",
+      "script": "document.querySelectorAll('[required]').forEach(el => el.removeAttribute('required')); document.querySelectorAll('form').forEach(f => f.setAttribute('novalidate',''));"
+    },
+    {
+      "id": "F02",
+      "kind": "fault",
+      "category": "navigasi",
+      "description": "Seluruh tautan navigasi internal dilumpuhkan menjadi jangkar kosong",
+      "script": "document.querySelectorAll('nav a[href], header a[href]').forEach(a => { if (!a.getAttribute('href').startsWith('http')) a.setAttribute('href', '#'); });"
+    },
+    {
+      "id": "F03",
+      "kind": "fault",
+      "category": "navigasi",
+      "description": "Tautan menu pertama diarahkan ke halaman yang salah",
+      "script": "const a = document.querySelector('nav a[href]'); if (a) a.setAttribute('href', '/kontak');"
+    },
+    {
+      "id": "F04",
+      "kind": "fault",
+      "category": "kontrol formulir",
+      "description": "Tombol submit dinonaktifkan secara permanen",
+      "script": "document.querySelectorAll('button[type=submit], input[type=submit]').forEach(b => { b.disabled = true; b.setAttribute('aria-disabled','true'); });"
+    },
+    {
+      "id": "F05",
+      "kind": "fault",
+      "category": "integritas data formulir",
+      "description": "Nama field dipertukarkan, sehingga data terkirim ke kolom yang keliru",
+      "script": "const ins = Array.from(document.querySelectorAll('form input[name]')); if (ins.length >= 2) { const a = ins[0].getAttribute('name'), b = ins[1].getAttribute('name'); ins[0].setAttribute('name', b); ins[1].setAttribute('name', a); }"
+    },
+    {
+      "id": "F06",
+      "kind": "fault",
+      "category": "konten",
+      "description": "Judul utama halaman dikosongkan",
+      "script": "const h = document.querySelector('h1'); if (h) h.textContent = '';"
+    },
+    {
+      "id": "F07",
+      "kind": "fault",
+      "category": "pencarian",
+      "description": "Kolom pencarian tidak lagi mengirimkan kueri",
+      "script": "document.querySelectorAll('form').forEach(f => { if (f.querySelector('input[type=search], input[name*=cari i], input[name*=search i], input[name=q]')) f.addEventListener('submit', e => e.preventDefault(), true); });"
+    },
+    {
+      "id": "F08",
+      "kind": "fault",
+      "category": "daftar konten",
+      "description": "Seluruh item pada daftar berita dihapus dari DOM",
+      "script": "const sel = ['article','.post','.berita','.news-item','.card']; sel.forEach(s => document.querySelectorAll(s).forEach(n => n.remove()));"
+    },
+    {
+      "id": "F09",
+      "kind": "fault",
+      "category": "umpan balik",
+      "description": "Pesan sukses dan pesan galat disembunyikan dari pengguna",
+      "script": "const css = document.createElement('style'); css.textContent = '.alert,.alert-success,.alert-danger,.invalid-feedback,[role=alert],.error,.success{display:none !important}'; document.head.appendChild(css);"
+    },
+    {
+      "id": "F10",
+      "kind": "fault",
+      "category": "kontrol formulir",
+      "description": "Field wajib pada formulir pendaftaran diubah menjadi readonly",
+      "script": "document.querySelectorAll('form input:not([type=hidden]):not([type=submit]), form textarea, form select').forEach(el => el.setAttribute('readonly',''));"
+    },
+    {
+      "id": "F11",
+      "kind": "fault",
+      "category": "navigasi",
+      "description": "Tautan detail berita kehilangan pengenal, sehingga selalu menuju indeks",
+      "script": "document.querySelectorAll('a[href*=\"berita/\"], a[href*=\"news/\"]').forEach(a => a.setAttribute('href','/berita'));"
+    },
+    {
+      "id": "F12",
+      "kind": "fault",
+      "category": "aksesibilitas",
+      "description": "Label formulir dilepas dari kontrolnya",
+      "script": "document.querySelectorAll('label[for]').forEach(l => l.removeAttribute('for')); document.querySelectorAll('[aria-label]').forEach(e => e.removeAttribute('aria-label'));"
+    },
+    {
+      "id": "F13",
+      "kind": "fault",
+      "category": "konten",
+      "description": "Informasi kontak pesantren diganti dengan nilai kosong",
+      "script": "document.querySelectorAll('a[href^=tel], a[href^=mailto]').forEach(a => { a.textContent = '-'; a.setAttribute('href','#'); });"
+    },
+    {
+      "id": "F14",
+      "kind": "fault",
+      "category": "kontrol formulir",
+      "description": "Formulir mengirim ulang ke dirinya sendiri tanpa memproses data",
+      "script": "document.querySelectorAll('form').forEach(f => f.setAttribute('action', window.location.pathname));"
+    },
+    {
+      "id": "F15",
+      "kind": "fault",
+      "category": "tata letak",
+      "description": "Konten utama tersembunyi di balik elemen transparan sehingga tidak dapat diklik",
+      "script": "const o = document.createElement('div'); o.style.cssText='position:fixed;inset:0;z-index:99999;background:transparent'; document.body.appendChild(o);"
+    }
+  ]
+}

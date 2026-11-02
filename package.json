@@ -1,0 +1,20 @@
+{
+  "name": "rag-test-gen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Harness eksperimen: RAG-based automated test generation and validation for web applications",
+  "scripts": {
+    "capture": "node scripts/01-capture-dom.js",
+    "discover": "node scripts/01-capture-dom.js --discover",
+    "validate:static": "node scripts/04-static-validate.js",
+    "run:baseline": "node scripts/05-run-suite.js --all --tag baseline",
+    "run:flaky": "node scripts/05-run-suite.js --all --repeat 10 --tag flakiness",
+    "run:faults": "node scripts/05-run-suite.js --all --perturb perturbations/faults.json --tag faults",
+    "run:mutations": "node scripts/05-run-suite.js --all --perturb perturbations/mutations.json --tag mutations",
+    "probe:selectors": "node scripts/06-selector-probe.js --all"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "playwright": "^1.49.0"
+  }
+}
