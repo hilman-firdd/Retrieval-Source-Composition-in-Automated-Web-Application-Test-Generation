@@ -10,7 +10,7 @@ test scripts** for a web application.
 - Execution: Playwright (JavaScript), 1 worker
 - System under test: one staging web application (Pesantren PERSIS 27, `https://staging.pesantrenpersis27.com`)
 
-Authors: Hilman Firdaus, Wendy Sarasjati, Dhendra Marutho, Ahmad Ilham
+Authors: Hilman Firdaus, Dhendra Marutho, Ahmad Ilham
 (Magister Programme of Informatics, Universitas Muhammadiyah Semarang, Indonesia).
 
 ## How to cite
