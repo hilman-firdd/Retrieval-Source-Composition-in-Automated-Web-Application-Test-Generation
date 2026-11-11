@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software or its data, please cite it using the metadata below."
 type: software
-title: "Retrieval Source Composition in Automated Web Application Test Generation: Experiment Harness and Replication Package"
+title: "Retrieval Source Composition in Automated Web Application Test Generation"
 abstract: >-
   Experiment harness and replication package for an empirical study of which
   retrieval sources (requirements, DOM snapshots, historical tests) help a
