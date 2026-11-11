@@ -1,6 +1,16 @@
 {
-  "probedAt": "2026-11-10T23:35:31.394Z",
+  "probedAt": "2026-11-11T07:01:58.762Z",
   "extractor": "v2",
+  "routes_source": "kb",
+  "fallback_routes": [
+    "/portal/halaman/brosur-pesantren-umum",
+    "/portal/halaman/faq-simasis",
+    "/",
+    "/login",
+    "/portal/halaman/pendaftaran-pesantren-khusus",
+    "/portal/artikel",
+    "/portal/berita"
+  ],
   "rows": [
     {
       "condition": "B0__neutral",
@@ -8,11 +18,9 @@
       "scenario_id": "ARTC01",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:main"
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__neutral",
@@ -47,11 +55,10 @@
       "scenario_id": "ARTC04",
       "total_selectors": 3,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
       "hallucinated_selectors": [
         "locator:input[name=\"q\"]",
-        "locator:button[type=\"submit\"]",
         "locator:div.result-list"
       ]
     },
@@ -147,11 +154,9 @@
       "scenario_id": "NAV03",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:text=\"Artikel Tulisan Santri\""
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__neutral",
@@ -271,11 +276,10 @@
       "scenario_id": "NEWS06",
       "total_selectors": 4,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
       "hallucinated_selectors": [
         "locator:input[name=\"q\"]",
-        "locator:button[type=\"submit\"]",
         "locator:text=\"(0 hasil)\"",
         "locator:text=\"Tidak ada berita ditemukan\""
       ]
@@ -370,11 +374,10 @@
       "scenario_id": "ARTC04",
       "total_selectors": 3,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
       "hallucinated_selectors": [
         "locator:input[name=\"q\"]",
-        "locator:button[type=\"submit\"]",
         "locator:text=\"Tidak ada hasil yang ditemukan\""
       ]
     },
@@ -470,11 +473,9 @@
       "scenario_id": "NAV03",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:text=\"Artikel Tulisan Santri\""
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__neutral",
@@ -595,11 +596,10 @@
       "scenario_id": "NEWS06",
       "total_selectors": 4,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
       "hallucinated_selectors": [
         "locator:input[name=\"q\"]",
-        "locator:button[type=\"submit\"]",
         "locator:text=\"(0 hasil)\"",
         "locator:text=\"Tidak ada berita ditemukan\""
       ]
@@ -687,11 +687,10 @@
       "scenario_id": "ARTC04",
       "total_selectors": 3,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
       "hallucinated_selectors": [
         "locator:input[name=\"q\"]",
-        "locator:button[type=\"submit\"]",
         "locator:div.result-list"
       ]
     },
@@ -789,11 +788,9 @@
       "scenario_id": "NAV03",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:text=\"Artikel Tulisan Santri\""
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__neutral",
@@ -945,11 +942,10 @@
       "scenario_id": "RES01",
       "total_selectors": 2,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
       "hallucinated_selectors": [
-        "locator:input[name=\"q\"]",
-        "locator:main"
+        "locator:input[name=\"q\"]"
       ]
     },
     {
@@ -970,11 +966,9 @@
       "scenario_id": "ARTC01",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:main"
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__neutral",
@@ -1008,11 +1002,10 @@
       "scenario_id": "ARTC04",
       "total_selectors": 3,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
       "hallucinated_selectors": [
         "locator:input[name=\"q\"]",
-        "locator:button[type=\"submit\"]",
         "locator:text=\"Tidak ada hasil yang ditemukan\""
       ]
     },
@@ -1108,11 +1101,9 @@
       "scenario_id": "NAV03",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:text=\"Artikel Tulisan Santri\""
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__neutral",
@@ -1196,12 +1187,11 @@
       "scenario_id": "NEWS03",
       "total_selectors": 3,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
       "hallucinated_selectors": [
         "locator:ul.news-list",
-        "locator:ul.news-list li:first-child a",
-        "locator:main"
+        "locator:ul.news-list li:first-child a"
       ]
     },
     {
@@ -1232,11 +1222,10 @@
       "scenario_id": "NEWS06",
       "total_selectors": 4,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
       "hallucinated_selectors": [
         "locator:input[name=\"keyword\"]",
-        "locator:button[type=\"submit\"]",
         "locator:text=\"(0 hasil)\"",
         "locator:text=\"Tidak ada berita ditemukan\""
       ]
@@ -1327,11 +1316,10 @@
       "scenario_id": "ARTC04",
       "total_selectors": 4,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.25,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.5,
       "hallucinated_selectors": [
         "locator:input[name=\"q\"]",
-        "locator:button[type=\"submit\"]",
         "locator:text=\"Tidak ada hasil yang ditemukan\""
       ]
     },
@@ -1373,11 +1361,9 @@
       "scenario_id": "AUTH04",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:text=\"Beranda\""
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__neutral",
@@ -1429,11 +1415,9 @@
       "scenario_id": "NAV03",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:text=\"Artikel Tulisan Santri\""
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__neutral",
@@ -1553,11 +1537,10 @@
       "scenario_id": "NEWS06",
       "total_selectors": 4,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
       "hallucinated_selectors": [
         "locator:input[name=\"q\"]",
-        "locator:button[type=\"submit\"]",
         "locator:text=\"(0 hasil)\"",
         "locator:text=\"Tidak ada berita ditemukan\""
       ]
@@ -1648,11 +1631,9 @@
       "scenario_id": "ARTC04",
       "total_selectors": 3,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 2,
-      "selector_validity": 0.6667,
-      "hallucinated_selectors": [
-        "locator:button[type=\"submit\"]"
-      ]
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__rerun",
@@ -1744,11 +1725,9 @@
       "scenario_id": "NAV02",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:h1:has-text(\"Berita Terbaru\")"
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__rerun",
@@ -1756,11 +1735,9 @@
       "scenario_id": "NAV03",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:h1:has-text(\"Artikel Tulisan Santri\")"
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__rerun",
@@ -1880,11 +1857,10 @@
       "scenario_id": "NEWS06",
       "total_selectors": 4,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
       "hallucinated_selectors": [
         "locator:input[name=\"q\"]",
-        "locator:button[type=\"submit\"]",
         "locator:text=\"(0 hasil)\"",
         "locator:text=\"Tidak ada berita ditemukan\""
       ]
@@ -1978,12 +1954,10 @@
       "scenario_id": "ARTC04",
       "total_selectors": 4,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.25,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
       "hallucinated_selectors": [
-        "locator:input[type=\"search\"]",
-        "locator:button[type=\"submit\"]",
-        "locator:main"
+        "locator:input[type=\"search\"]"
       ]
     },
     {
@@ -2074,11 +2048,10 @@
       "scenario_id": "NAV02",
       "total_selectors": 2,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
       "hallucinated_selectors": [
-        "locator:a[test-id=\"all-news\"]",
-        "locator:h1:has-text(\"Berita Terbaru\")"
+        "locator:a[test-id=\"all-news\"]"
       ]
     },
     {
@@ -2087,11 +2060,10 @@
       "scenario_id": "NAV03",
       "total_selectors": 3,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.3333,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
       "hallucinated_selectors": [
-        "locator:a:has-text(\"Lihat Semua\"]",
-        "locator:h1:has-text(\"Artikel Tulisan Santri\")"
+        "locator:a:has-text(\"Lihat Semua\"]"
       ]
     },
     {
@@ -2214,11 +2186,10 @@
       "scenario_id": "NEWS06",
       "total_selectors": 4,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
       "hallucinated_selectors": [
         "locator:input[name=\"keyword\"]",
-        "locator:button[type=\"submit\"]",
         "locator:text=\"(0 hasil)\"",
         "locator:text=\"Tidak ada berita ditemukan\""
       ]
@@ -2308,10 +2279,9 @@
       "scenario_id": "ARTC04",
       "total_selectors": 3,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.3333,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
       "hallucinated_selectors": [
-        "locator:button[type=\"submit\"]",
         "locator:text=\"Tidak ada hasil yang ditemukan\""
       ]
     },
@@ -2391,11 +2361,9 @@
       "scenario_id": "NAV01",
       "total_selectors": 3,
       "resolved_on_start_page": 2,
-      "resolved_anywhere": 2,
-      "selector_validity": 0.6667,
-      "hallucinated_selectors": [
-        "locator:h1:has-text(\"Pesantren\")"
-      ]
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__rerun",
@@ -2403,11 +2371,10 @@
       "scenario_id": "NAV02",
       "total_selectors": 2,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
       "hallucinated_selectors": [
-        "locator:button:has-text(\"Semua Berita\")",
-        "locator:h1:has-text(\"Berita Terbaru\")"
+        "locator:button:has-text(\"Semua Berita\")"
       ]
     },
     {
@@ -2416,11 +2383,9 @@
       "scenario_id": "NAV03",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:h1:has-text(\"Artikel Tulisan Santri\")"
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__rerun",
@@ -2542,11 +2507,10 @@
       "scenario_id": "NEWS06",
       "total_selectors": 4,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
       "hallucinated_selectors": [
         "locator:input[name=\"q\"]",
-        "locator:button[type=\"submit\"]",
         "locator:text=\"(0 hasil)\"",
         "locator:text=\"Tidak ada berita ditemukan\""
       ]
@@ -2640,11 +2604,9 @@
       "scenario_id": "ARTC04",
       "total_selectors": 3,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 2,
-      "selector_validity": 0.6667,
-      "hallucinated_selectors": [
-        "locator:button[type=\"submit\"]"
-      ]
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__rerun",
@@ -2732,11 +2694,9 @@
       "scenario_id": "NAV02",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:h1:has-text(\"Berita Terbaru\")"
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__rerun",
@@ -2744,11 +2704,9 @@
       "scenario_id": "NAV03",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:h1:has-text(\"Artikel Tulisan Santri\")"
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__rerun",
@@ -2778,11 +2736,9 @@
       "scenario_id": "NAV06",
       "total_selectors": 3,
       "resolved_on_start_page": 2,
-      "resolved_anywhere": 2,
-      "selector_validity": 0.6667,
-      "hallucinated_selectors": [
-        "locator:h1:has-text(\"FAQ SIMASIS\")"
-      ]
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__rerun",
@@ -2871,11 +2827,10 @@
       "scenario_id": "NEWS06",
       "total_selectors": 4,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
       "hallucinated_selectors": [
         "locator:input[name=\"q\"]",
-        "locator:button[type=\"submit\"]",
         "locator:text=\"(0 hasil)\"",
         "locator:text=\"Tidak ada berita ditemukan\""
       ]
@@ -2966,12 +2921,9 @@
       "scenario_id": "ARTC04",
       "total_selectors": 4,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 2,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:button[type=\"submit\"]",
-        "locator:main"
-      ]
+      "resolved_anywhere": 4,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__rerun",
@@ -3063,11 +3015,9 @@
       "scenario_id": "NAV02",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:h1:has-text(\"Berita Terbaru\")"
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__rerun",
@@ -3075,11 +3025,9 @@
       "scenario_id": "NAV03",
       "total_selectors": 2,
       "resolved_on_start_page": 1,
-      "resolved_anywhere": 1,
-      "selector_validity": 0.5,
-      "hallucinated_selectors": [
-        "locator:h1:has-text(\"Artikel Tulisan Santri\")"
-      ]
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__rerun",
@@ -3109,11 +3057,9 @@
       "scenario_id": "NAV06",
       "total_selectors": 3,
       "resolved_on_start_page": 2,
-      "resolved_anywhere": 2,
-      "selector_validity": 0.6667,
-      "hallucinated_selectors": [
-        "locator:h1:has-text(\"FAQ SIMASIS\")"
-      ]
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
     },
     {
       "condition": "B0__rerun",
@@ -3200,11 +3146,10 @@
       "scenario_id": "NEWS06",
       "total_selectors": 4,
       "resolved_on_start_page": 0,
-      "resolved_anywhere": 0,
-      "selector_validity": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
       "hallucinated_selectors": [
         "locator:input[name=\"q\"]",
-        "locator:button[type=\"submit\"]",
         "locator:text=\"(0 hasil)\"",
         "locator:text=\"Tidak ada berita ditemukan\""
       ]

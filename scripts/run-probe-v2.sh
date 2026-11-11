@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # run-probe-v2.sh — ulangi pengukuran Selector Validity dengan ekstraktor v2 (audit 11 Nov 2026).
 #
+# v3 (11 Nov): rute cadangan diambil dari halaman KB, bukan dari daftar contoh di config.
 # Ekstraktor v1 memotong selector yang berisi tanda kutip (mis. input[name="email"] -> input[name=),
 # sehingga selector itu selalu terhitung tidak valid. Skrip hasil generasi TIDAK diubah;
 # hanya probe (pembacaan locator + pengecekan ke staging) yang diulang.
@@ -15,7 +16,7 @@ cd "$(dirname "$0")/.."
 
 MAIN="B0,B1,B2,P,P_no_req,P_no_hist,P_no_dom"
 AB="B0__rerun,B0__neutral"
-OLD="results/_probe-v1"
+OLD="results/_probe-old-$(date +%Y%m%d-%H%M)"
 
 case "${1:-}" in
   check)
@@ -27,7 +28,7 @@ case "${1:-}" in
     mkdir -p "$OLD"
     for f in results/06-selector-validity*.json; do
       [ -e "$f" ] || continue
-      python3 -c "import json,sys;sys.exit(0 if json.load(open('$f')).get('extractor')=='v2' else 1)" \
+      python3 -c "import json,sys;d=json.load(open(sys.argv[1]));sys.exit(0 if d.get('extractor')=='v2' and d.get('routes_source')=='kb' else 1)" "$f" \
         || { mv "$f" "$OLD/"; echo "dipindah ke $OLD: $f"; }
     done
     [ -f results/06-selector-validity.json ] || \

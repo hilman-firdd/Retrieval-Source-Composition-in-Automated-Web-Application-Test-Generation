@@ -19,7 +19,9 @@ Protokol utama: **5 seed (temperature 0,2) saja**. Unit analisis: **skenario** (
 | Syntax Validity Rate (%) | 98.6 ± 5.2 | 98.6 ± 7.6 | 97.9 ± 8.3 | 97.9 ± 8.3 | 100.0 ± 0.0 | 94.3 ± 14.3 | 92.1 ± 24.5 |
 | Executable Rate (%) | 96.4 ± 12.2 | 97.1 ± 9.0 | 97.9 ± 8.3 | 97.9 ± 8.3 | 98.6 ± 7.6 | 94.3 ± 14.3 | 84.3 ± 35.0 |
 | Pass Rate (%) | 15.0 ± 31.6 | 23.6 ± 35.7 | 26.4 ± 42.5 | 56.4 ± 46.2 | 51.4 ± 47.9 | 20.7 ± 37.9 | 62.1 ± 45.3 |
-| Selector Validity (%) | 56.2 ± 31.5 | 70.8 ± 28.4 | 82.3 ± 23.0 | 89.9 ± 19.0 | 89.6 ± 18.8 | 83.8 ± 18.7 | 82.9 ± 32.0 |
+| Selector Validity (%) | 62.6 ± 31.7 | 74.9 ± 25.0 | 85.6 ± 19.7 | 92.1 ± 18.3 | 90.6 ± 18.7 | 88.0 ± 16.6 | 85.8 ± 29.6 |
+| Selector Validity (tanpa locator bergantung-state) (%) | 64.4 ± 31.6 | 76.2 ± 23.9 | 87.0 ± 18.4 | 99.1 ± 3.8 | 97.7 ± 7.2 | 92.4 ± 10.7 | 93.8 ± 23.0 |
+| Selector Validity (hanya halaman awal skenario) (%) | 55.0 ± 32.0 | 68.1 ± 30.2 | 78.4 ± 25.7 | 89.6 ± 19.0 | 87.5 ± 20.1 | 81.0 ± 20.2 | 82.9 ± 32.0 |
 | Assertion Presence (%) | 99.3 ± 3.8 | 100.0 ± 0.0 | 100.0 ± 0.0 | 100.0 ± 0.0 | 100.0 ± 0.0 | 100.0 ± 0.0 | 100.0 ± 0.0 |
 | Flakiness Rate (%) | 0.0 ± 0.0 | 0.0 ± 0.0 | 0.0 ± 0.0 | 5.7 ± 19.5 | – | – | – |
 | Anti-pattern per skrip | 0.24 ± 0.71 | 0.67 ± 1.76 | 0.06 ± 0.19 | 0.44 ± 0.57 | 0.41 ± 0.64 | 0.09 ± 0.38 | 0.39 ± 0.61 |
@@ -47,13 +49,25 @@ Selisih = kondisi kedua − kondisi pertama (pp), rata-rata antar skenario. r_rb
 | Executable Rate | B0 vs B2 | 28 | +1.43 [-3.57, +7.86] | 0.6803 | 0.6803 | +0.20 |
 | Executable Rate | P_no_hist vs P | 28 | +3.57 [-2.14, +10.00] | 0.3008 | 0.6016 | +0.43 |
 | Executable Rate | P_no_dom vs P | 28 | +13.57 [+3.57, +25.71] | 0.0422 | 0.1265 | +1.00 |
-| Selector Validity | B0 vs P | 28 | +33.71 [+21.63, +46.40] | 0.0001 | 0.0009 | +0.93 |
-| Selector Validity | B1 vs P | 28 | +19.04 [+10.23, +28.23] | 0.0009 | 0.0053 | +0.85 |
-| Selector Validity | B2 vs P | 28 | +7.57 [+1.03, +14.61] | 0.0535 | 0.1604 | +0.57 |
-| Selector Validity | B0 vs B2 | 28 | +26.14 [+12.74, +40.06] | 0.0020 | 0.0101 | +0.72 |
-| Selector Validity | P_no_req vs P | 28 | +0.30 [-2.79, +3.84] | 1.0000 | 1.0000 | +0.00 |
-| Selector Validity | P_no_hist vs P | 28 | +6.03 [+2.08, +10.43] | 0.0097 | 0.0389 | +0.74 |
-| Selector Validity | P_no_dom vs P | 28 | +6.95 [-0.81, +16.23] | 0.1763 | 0.3526 | +0.57 |
+| Selector Validity | B0 vs P | 28 | +29.48 [+16.94, +42.91] | 0.0005 | 0.0038 | +0.86 |
+| Selector Validity | B1 vs P | 28 | +17.18 [+9.30, +25.93] | 0.0012 | 0.0070 | +0.87 |
+| Selector Validity | B2 vs P | 28 | +6.55 [+0.08, +13.19] | 0.0555 | 0.1666 | +0.58 |
+| Selector Validity | B0 vs B2 | 28 | +22.93 [+10.92, +36.61] | 0.0038 | 0.0192 | +0.69 |
+| Selector Validity | P_no_req vs P | 28 | +1.53 [-0.73, +4.66] | 0.5002 | 0.5002 | +0.33 |
+| Selector Validity | P_no_hist vs P | 28 | +4.10 [+0.48, +7.67] | 0.0302 | 0.1207 | +0.66 |
+| Selector Validity | P_no_dom vs P | 28 | +6.35 [-0.71, +14.89] | 0.2249 | 0.4498 | +0.60 |
+| Selector Validity (tanpa locator bergantung-state) | B0 vs P | 28 | +34.71 [+23.84, +46.90] | 0.0001 | 0.0003 | +0.99 |
+| Selector Validity (tanpa locator bergantung-state) | B1 vs P | 28 | +22.95 [+14.50, +32.24] | 0.0003 | 0.0011 | +0.95 |
+| Selector Validity (tanpa locator bergantung-state) | B2 vs P | 28 | +12.11 [+5.44, +19.25] | 0.0043 | 0.0086 | +0.87 |
+| Selector Validity (tanpa locator bergantung-state) | B0 vs B2 | 28 | +22.61 [+10.58, +36.43] | 0.0045 | 0.0086 | +0.69 |
+| Selector Validity (tanpa locator bergantung-state) | P_no_hist vs P | 28 | +6.76 [+3.25, +10.54] | 0.0015 | 0.0044 | +0.96 |
+| Selector Validity (hanya halaman awal skenario) | B0 vs P | 28 | +34.67 [+22.86, +47.14] | 0.0001 | 0.0007 | +0.94 |
+| Selector Validity (hanya halaman awal skenario) | B1 vs P | 28 | +21.54 [+11.95, +31.62] | 0.0008 | 0.0050 | +0.85 |
+| Selector Validity (hanya halaman awal skenario) | B2 vs P | 28 | +11.25 [+4.30, +18.47] | 0.0072 | 0.0286 | +0.76 |
+| Selector Validity (hanya halaman awal skenario) | B0 vs B2 | 28 | +23.42 [+9.89, +38.17] | 0.0080 | 0.0286 | +0.61 |
+| Selector Validity (hanya halaman awal skenario) | P_no_req vs P | 28 | +2.17 [-1.68, +6.58] | 0.2367 | 0.3526 | +0.50 |
+| Selector Validity (hanya halaman awal skenario) | P_no_hist vs P | 28 | +8.60 [+4.17, +13.38] | 0.0027 | 0.0135 | +0.85 |
+| Selector Validity (hanya halaman awal skenario) | P_no_dom vs P | 28 | +6.71 [-1.20, +16.01] | 0.1763 | 0.3526 | +0.57 |
 | Anti-pattern per skrip | B0 vs P | 28 | +0.19 [-0.06, +0.42] | 0.2052 | 1.0000 | +0.41 |
 | Anti-pattern per skrip | B1 vs P | 28 | -0.24 [-0.87, +0.26] | 0.6592 | 1.0000 | +0.13 |
 | Anti-pattern per skrip | B2 vs P | 28 | +0.38 [+0.16, +0.61] | 0.0030 | 0.0213 | +0.89 |
@@ -123,7 +137,9 @@ Kondisi `B0__rerun` = prompt asli, `B0__neutral` = tanpa urutan preferensi locat
 | Syntax Validity Rate (%) | 98.6 ± 5.2 | 98.6 ± 5.2 | 100.0 ± 0.0 |
 | Executable Rate (%) | 96.4 ± 12.2 | 96.4 ± 12.2 | 100.0 ± 0.0 |
 | Pass Rate (%) | 15.0 ± 31.6 | 15.0 ± 31.6 | 18.6 ± 37.3 |
-| Selector Validity (%) | 56.2 ± 31.5 | 56.2 ± 31.5 | 64.9 ± 33.9 |
+| Selector Validity (%) | 62.6 ± 31.7 | 62.6 ± 31.7 | 70.2 ± 30.9 |
+| Selector Validity (tanpa locator bergantung-state) (%) | 64.4 ± 31.6 | 64.4 ± 31.6 | 71.8 ± 30.5 |
+| Selector Validity (hanya halaman awal skenario) (%) | 55.0 ± 32.0 | 55.0 ± 32.0 | 64.2 ± 34.4 |
 | Assertion Presence (%) | 99.3 ± 3.8 | 99.3 ± 3.8 | 100.0 ± 0.0 |
 | Anti-pattern per skrip | 0.24 ± 0.71 | 0.24 ± 0.71 | 0.31 ± 0.72 |
 | Mean Selector Tier | 2.41 ± 1.20 | 2.41 ± 1.20 | 2.44 ± 1.12 |
@@ -134,8 +150,10 @@ Uji berpasangan per skenario (`B0__rerun` → `B0__neutral`), Wilcoxon dua sisi.
 | Metrik | n | Selisih [CI 95%] | p | p Holm (sekunder) | r_rb |
 |---|---|---|---|---|---|
 | Pass Rate | 28 | +3.57 [-4.29, +13.57] | 0.4982 | primer | +0.33 |
-| Selector Validity | 28 | +8.79 [-1.43, +20.51] | 0.1260 | 0.2520 | +0.40 |
-| Anti-pattern per skrip | 28 | +0.06 [-0.31, +0.43] | 0.5533 | 0.5533 | +0.22 |
+| Selector Validity | 28 | +7.60 [-3.93, +20.60] | 0.3047 | 0.9140 | +0.27 |
+| Selector Validity (tanpa locator bergantung-state) | 28 | +7.42 [-4.13, +20.42] | 0.3338 | 0.9140 | +0.25 |
+| Selector Validity (hanya halaman awal skenario) | 28 | +9.26 [-0.62, +20.81] | 0.1466 | 0.5862 | +0.38 |
+| Anti-pattern per skrip | 28 | +0.06 [-0.31, +0.43] | 0.5533 | 0.9140 | +0.22 |
 
 ## Tabel G. Run referensi greedy (temperature 0, 1 run) — dilaporkan terpisah
 
@@ -144,5 +162,5 @@ Uji berpasangan per skenario (`B0__rerun` → `B0__neutral`), Wilcoxon dua sisi.
 | Syntax Validity Rate (%) | 100.0 | 96.4 | 96.4 | 100.0 |
 | Executable Rate (%) | 96.4 | 96.4 | 96.4 | 100.0 |
 | Pass Rate (%) | 17.9 | 21.4 | 28.6 | 57.1 |
-| Selector Validity (%) | 55.1 | 74.1 | 82.9 | 90.5 |
+| Selector Validity (%) | 63.7 | 78.0 | 87.5 | 93.5 |
 

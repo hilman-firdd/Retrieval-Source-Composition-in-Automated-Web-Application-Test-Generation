@@ -59,6 +59,22 @@ MANUSCRIPT_T4 = {
 }
 
 
+# Pesan yang menurut requirement hanya tampil setelah interaksi pengguna (bukan pada halaman awal):
+#   REQ-AUTH-03 galat login, REQ-NEWS-03 hasil pencarian berita kosong, REQ-ARTC-02 hasil pencarian artikel kosong.
+STATE_DEPENDENT = [
+    ("REQ-AUTH-03", "These credentials do not match our records"),
+    ("REQ-NEWS-03", "(0 hasil)"),
+    ("REQ-NEWS-03", "Hasil pencarian untuk"),
+    ("REQ-NEWS-03", "Tidak ada berita ditemukan"),
+    ("REQ-ARTC-02", "Tidak ada artikel ditemukan"),
+]
+
+
+def is_state_dependent(selector):
+    s = selector.lower()
+    return any(msg.lower() in s for _, msg in STATE_DEPENDENT)
+
+
 def is_seed(run):
     return str(run).startswith("seed")
 
@@ -131,14 +147,24 @@ def collect(run_filter):
 
     sel = load("06-selector-validity.json")
     old = [f.name for f in RESULTS.glob("06-selector-validity*.json")
-           if json.loads(f.read_text()).get("extractor") != "v2"]
+           if json.loads(f.read_text()).get("extractor") != "v2"
+           or json.loads(f.read_text()).get("routes_source") != "kb"]
     if old:
-        print(f"  [PERINGATAN] {', '.join(old)} dibuat dengan ekstraktor v1 (selector berisi tanda kutip "
-              "terpotong). Selector Validity dari berkas ini TIDAK sahih; jalankan scripts/run-probe-v2.sh.")
+        print(f"  [PERINGATAN] {', '.join(old)} dibuat dengan ekstraktor v1 atau rute cadangan contoh dari config "
+              "(bukan halaman KB). Selector Validity dari berkas ini TIDAK sahih; jalankan scripts/run-probe-v2.sh.")
     if sel:
         for r in sel["rows"]:
             if run_filter(r["run"]) and r.get("selector_validity") is not None:
-                m[r["condition"]][r["scenario_id"]][r["run"]]["selector_validity"] = r["selector_validity"]
+                cell = m[r["condition"]][r["scenario_id"]][r["run"]]
+                cell["selector_validity"] = r["selector_validity"]
+                # Locator yang menargetkan pesan yang baru muncul SETELAH interaksi (didokumentasikan di
+                # requirement) tidak dapat dinilai oleh probe halaman statis -> dikeluarkan dari penyebut.
+                nd = sum(1 for h in r.get("hallucinated_selectors") or [] if is_state_dependent(h))
+                tot, res = r.get("total_selectors") or 0, r.get("resolved_anywhere") or 0
+                cell["selector_validity_assessable"] = (res / (tot - nd)) if tot - nd > 0 else None
+                cell["state_dependent_locators"] = nd
+                # Varian ketat: hanya locator yang ditemukan di halaman awal skenario (bukan di halaman lain).
+                cell["selector_validity_start"] = (r.get("resolved_on_start_page") or 0) / tot if tot else None
 
     for rec in load_jsonl("03-generation-log.jsonl"):
         run = f"seed{rec['seed']}" if rec.get("temperature", 0.2) > 0 else f"greedy{rec['seed']}"
@@ -291,6 +317,8 @@ METRICS = [
     ("executable", "Executable Rate", "%"),
     ("passed", "Pass Rate", "%"),
     ("selector_validity", "Selector Validity", "%"),
+    ("selector_validity_assessable", "Selector Validity (tanpa locator bergantung-state)", "%"),
+    ("selector_validity_start", "Selector Validity (hanya halaman awal skenario)", "%"),
     ("has_assertion", "Assertion Presence", "%"),
     ("flaky", "Flakiness Rate", "%"),
     ("antipatterns", "Anti-pattern per skrip", "n"),

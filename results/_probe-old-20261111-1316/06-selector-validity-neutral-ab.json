@@ -1,0 +1,3259 @@
+{
+  "probedAt": "2026-11-10T23:35:31.394Z",
+  "extractor": "v2",
+  "rows": [
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:main"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "ARTC02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=\"Artikel\"",
+        "locator:text=\"Judul Artikel\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "ARTC03",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Artikel 1",
+        "locator:text=Halaman 2",
+        "locator:text=Artikel 2"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "ARTC04",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:div.result-list"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "AUTH02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "AUTH03",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=\"These credentials do not match our records.\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Pesantren Persis 27\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Semua Berita\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Artikel Tulisan Santri\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Kembali ke beranda\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV07",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV08",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"404 NOT FOUND\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h3:contains(\"Berita Terbaru\")"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NEWS03",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:ul.news-list",
+        "locator:ul.news-list li:first-child a",
+        "locator:main article"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NEWS06",
+      "total_selectors": 4,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:text=\"(0 hasil)\"",
+        "locator:text=\"Tidak ada berita ditemukan\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "RES02",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=\"Invalid username or password\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "ARTC01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:h3:contains(\"Artikel Tulisan Santri\")"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "ARTC02",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=\"Artikel\"",
+        "locator:text=\"Artikel 1\"",
+        "locator:text=\"Judul Artikel\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "ARTC03",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Artikel 1",
+        "locator:text=Next page",
+        "locator:text=Artikel 2"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "ARTC04",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:text=\"Tidak ada hasil yang ditemukan\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "AUTH02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "AUTH03",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=\"These credentials do not match our records.\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Pesantren Persis 27\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Semua Berita\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Artikel Tulisan Santri\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Konten Beranda\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV07",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV08",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"404 NOT FOUND\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NEWS01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:h3:contains(\"Berita Terbaru\")"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:ul.berita-list",
+        "locator:h1.berita-judul"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NEWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:ul.berita-list"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NEWS06",
+      "total_selectors": 4,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:text=\"(0 hasil)\"",
+        "locator:text=\"Tidak ada berita ditemukan\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "RES02",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=\"Invalid username or password\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "ARTC02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=\"Artikel\"",
+        "locator:text=\"Judul Artikel\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "ARTC03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "ARTC04",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:div.result-list"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "AUTH02",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "AUTH03",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=These credentials do not match our records."
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Pesantren Persis 27\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Jawaban: ...\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Semua Berita\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Artikel Tulisan Santri\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Kembali ke beranda\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV07",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV08",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"404 NOT FOUND\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h3:contains(\"Berita Terbaru\")"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NEWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:ul.news-list"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NEWS06",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]",
+        "locator:text=\"(0 hasil)\"",
+        "locator:text=\"Tidak ada berita ditemukan\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]",
+        "locator:main"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "RES02",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=\"Invalid username or password\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:main"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "ARTC02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=\"Artikel\"",
+        "locator:text=\"Judul Artikel\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "ARTC03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Artikel 1",
+        "locator:text=Artikel 2"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "ARTC04",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:text=\"Tidak ada hasil yang ditemukan\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "AUTH02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "AUTH03",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=These credentials do not match our records."
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Pesantren Persis 27\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Semua Berita\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Artikel Tulisan Santri\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Konten Beranda\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV07",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV08",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"404 NOT FOUND\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h3:contains(\"Berita Terbaru\")"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NEWS03",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:ul.news-list",
+        "locator:ul.news-list li:first-child a",
+        "locator:main"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NEWS06",
+      "total_selectors": 4,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"keyword\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:text=\"(0 hasil)\"",
+        "locator:text=\"Tidak ada berita ditemukan\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "RES02",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=\"Invalid username or password\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "ARTC02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:ul.artikel-list",
+        "locator:h1.artikel-title"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "ARTC03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Artikel 1",
+        "locator:text=Artikel 2"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "ARTC04",
+      "total_selectors": 4,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:text=\"Tidak ada hasil yang ditemukan\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "AUTH02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "AUTH03",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=These credentials do not match our records."
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Beranda\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Jawaban: ...\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Semua Berita\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Artikel Tulisan Santri\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Konten Beranda\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV07",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV08",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"404 NOT FOUND\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:contains(\"Berita Terbaru\")",
+        "locator:article"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NEWS03",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:ul.news-list",
+        "locator:ul.news-list li:first-child a"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NEWS06",
+      "total_selectors": 4,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:text=\"(0 hasil)\"",
+        "locator:text=\"Tidak ada berita ditemukan\""
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "RES02",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=\"Invalid username or password\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "ARTC01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:has-text(\"Artikel Tulisan Santri\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "ARTC02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:a[test-id=\"article-list-item-0\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "ARTC03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id=\"article-list\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "ARTC04",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:button[type=\"submit\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=\"text\"][data-testid=\"username\"]",
+        "locator:input[type=\"password\"][data-testid=\"password\"]",
+        "locator:button[type=\"submit\"][data-testid=\"submit\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "AUTH02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:[data-test-id=\"username\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "AUTH03",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=\"These credentials do not match our records.\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button:has-text(\"Kembali ke Landing Page\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Menu navigasi"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Jawaban: SIMASIS adalah...\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(\"Berita Terbaru\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(\"Artikel Tulisan Santri\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Konten beranda\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV06",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV07",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV08",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"404 NOT FOUND\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h3:has-text(\"Berita Terbaru\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NEWS02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(\"Judul Berita\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NEWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:ul.news-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Pencarian berita\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NEWS06",
+      "total_selectors": 4,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:text=\"(0 hasil)\"",
+        "locator:text=\"Tidak ada berita ditemukan\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=\"search\"]",
+        "testid:search-input"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "RES02",
+      "total_selectors": 5,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.6,
+      "hallucinated_selectors": [
+        "testid:username",
+        "testid:password"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:has-text(\"Artikel Tulisan Santri\")",
+        "locator:ul.artikel-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "ARTC02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=\"Judul Artikel Pertama\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "ARTC03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id=\"article-list\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "ARTC04",
+      "total_selectors": 4,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
+      "hallucinated_selectors": [
+        "locator:input[type=\"search\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:main"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=\"text\"][data-test-id=\"username\"]",
+        "locator:input[type=\"password\"][data-test-id=\"password\"]",
+        "locator:button[type=\"submit\"][data-test-id=\"login\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "AUTH02",
+      "total_selectors": 6,
+      "resolved_on_start_page": 6,
+      "resolved_anywhere": 6,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "AUTH03",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=\"These credentials do not match our records.\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button:has-text(\"Kembali ke Landing Page\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Menu navigasi"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Jawaban: ...\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:a[test-id=\"all-news\"]",
+        "locator:h1:has-text(\"Berita Terbaru\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV03",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:a:has-text(\"Lihat Semua\"]",
+        "locator:h1:has-text(\"Artikel Tulisan Santri\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Konten Beranda\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV06",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV07",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV08",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(\"Not Found\")",
+        "locator:text=\"404 NOT FOUND\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:has-text(\"Berita Terbaru\")",
+        "locator:h3:has-text(\"Berita Terbaru\") ~ *"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:ul.news-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NEWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:ul.news-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Pencarian berita\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NEWS06",
+      "total_selectors": 4,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"keyword\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:text=\"(0 hasil)\"",
+        "locator:text=\"Tidak ada berita ditemukan\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[type=\"search\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "RES02",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:has-text(\"Artikel Tulisan Santri\")",
+        "locator:ul.artikel-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "ARTC02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:article"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "ARTC03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id=\"article-list\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "ARTC04",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:button[type=\"submit\"]",
+        "locator:text=\"Tidak ada hasil yang ditemukan\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=\"text\"][data-test-id=\"username\"]",
+        "locator:input[type=\"password\"][data-test-id=\"password\"]",
+        "locator:button[type=\"submit\"][data-test-id=\"submit\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "AUTH02",
+      "total_selectors": 6,
+      "resolved_on_start_page": 6,
+      "resolved_anywhere": 6,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "AUTH03",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=\"These credentials do not match our records.\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button:has-text(\"Kembali ke Landing Page\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Jawaban: ...\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(\"Pesantren\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:button:has-text(\"Semua Berita\")",
+        "locator:h1:has-text(\"Berita Terbaru\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(\"Artikel Tulisan Santri\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Konten Beranda\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV06",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV07",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV08",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(\"Not Found\")",
+        "locator:text=\"404 NOT FOUND\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h3:contains(\"Berita Terbaru\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NEWS02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(\"Judul Berita\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NEWS03",
+      "total_selectors": 4,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:ul.news-list",
+        "testid:news-title"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"santri\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NEWS06",
+      "total_selectors": 4,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:text=\"(0 hasil)\"",
+        "locator:text=\"Tidak ada berita ditemukan\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "RES02",
+      "total_selectors": 6,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:div.error-message",
+        "testid:username",
+        "testid:password"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:has-text(\"Artikel Tulisan Santri\")",
+        "locator:ul.artikel-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "ARTC02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:article"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "ARTC03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id=\"article-list\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "ARTC04",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:button[type=\"submit\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=\"text\"][data-testid=\"username\"]",
+        "locator:input[type=\"password\"][data-testid=\"password\"]",
+        "locator:button[type=\"submit\"][data-testid=\"submit\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "AUTH02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:[data-test-id=\"username\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "AUTH03",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=\"These credentials do not match our records.\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button:has-text(\"Kembali ke Landing Page\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(\"Berita Terbaru\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(\"Artikel Tulisan Santri\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Konten Beranda\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV06",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(\"FAQ SIMASIS\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV07",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV08",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"404 NOT FOUND\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h3:has-text(\"Berita Terbaru\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:a[test-id=\"news-list-item-0\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NEWS03",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:ul.news-list",
+        "testid:news-title"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"santri\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NEWS06",
+      "total_selectors": 4,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:text=\"(0 hasil)\"",
+        "locator:text=\"Tidak ada berita ditemukan\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=\"search\"]",
+        "testid:search-input"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "RES02",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:has-text(\"Artikel Tulisan Santri\")",
+        "locator:ul.artikel-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "ARTC02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:a[role=\"link\"]:has-text(\"Judul Artikel Pertama\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "ARTC03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id=\"article-list\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "ARTC04",
+      "total_selectors": 4,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button[type=\"submit\"]",
+        "locator:main"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=\"text\"][data-test-id=\"username\"]",
+        "locator:input[type=\"password\"][data-test-id=\"password\"]",
+        "locator:button[type=\"submit\"][data-test-id=\"submit\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "AUTH02",
+      "total_selectors": 4,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
+      "hallucinated_selectors": [
+        "locator:[data-test=\"username\"]",
+        "locator:[data-test=\"password\"]",
+        "locator:button:has-text(\"Masuk\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "AUTH03",
+      "total_selectors": 4,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.75,
+      "hallucinated_selectors": [
+        "locator:text=\"These credentials do not match our records.\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button:has-text(\"Kembali ke Landing Page\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Menu navigasi"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(\"Berita Terbaru\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(\"Artikel Tulisan Santri\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"Konten beranda\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV06",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(\"FAQ SIMASIS\")"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV07",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV08",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=\"404 NOT FOUND\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:has-text(\"Berita Terbaru\")",
+        "locator:ul.news-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:a[test-id=\"news-list-item-0\"]"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NEWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:ul.news-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NEWS06",
+      "total_selectors": 4,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=\"q\"]",
+        "locator:button[type=\"submit\"]",
+        "locator:text=\"(0 hasil)\"",
+        "locator:text=\"Tidak ada berita ditemukan\""
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "RES01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:input[type=\"search\"]",
+        "testid:search-input"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "RES02",
+      "total_selectors": 5,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.6,
+      "hallucinated_selectors": [
+        "testid:username",
+        "testid:password"
+      ]
+    }
+  ]
+}

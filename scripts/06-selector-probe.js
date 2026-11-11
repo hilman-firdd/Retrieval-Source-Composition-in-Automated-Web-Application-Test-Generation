@@ -85,7 +85,18 @@ function collectRunDirs(all, dir) {
   const base = CONFIG.sut.baseUrl;
 
   // Muat setiap route sekali, simpan sebagai daftar untuk fallback pencarian.
-  const routes = CONFIG.sut.routes;
+  // Rute cadangan = halaman yang benar-benar ditangkap ke knowledge base (kb/dom-snapshots/pruned/*.inventory.json).
+  // v2 memakai CONFIG.sut.routes, yang ternyata masih daftar contoh (/profil, /berita, ...) dan bukan rute situs
+  // (/portal/berita, /login, ...); akibatnya pencarian "di halaman lain" hampir tidak pernah mengenai halaman nyata.
+  const KB_DIR = path.join(ROOT, 'kb/dom-snapshots/pruned');
+  const kbRoutes = fs.existsSync(KB_DIR)
+    ? fs.readdirSync(KB_DIR).filter((f) => f.endsWith('.inventory.json'))
+        .map((f) => JSON.parse(fs.readFileSync(path.join(KB_DIR, f), 'utf8')).url)
+        .filter(Boolean).map((u) => ({ path: new URL(u).pathname }))
+    : [];
+  const routes = kbRoutes.length ? kbRoutes : CONFIG.sut.routes;
+  const ROUTES_SOURCE = kbRoutes.length ? 'kb' : 'config';
+  console.log(`Rute cadangan (${ROUTES_SOURCE}): ${routes.map((r) => r.path).join(', ')}`);
   const rows = [];
 
   for (const t of targets) {
@@ -149,7 +160,8 @@ function collectRunDirs(all, dir) {
 
   const out = path.resolve(ROOT, arg('--out') || 'results/06-selector-validity.json');
   fs.mkdirSync(path.dirname(out), { recursive: true });
-  fs.writeFileSync(out, JSON.stringify({ probedAt: new Date().toISOString(), extractor: EXTRACTOR_VERSION, rows }, null, 2));
+  fs.writeFileSync(out, JSON.stringify({ probedAt: new Date().toISOString(), extractor: EXTRACTOR_VERSION, routes_source: ROUTES_SOURCE,
+    fallback_routes: routes.map((r) => r.path), rows }, null, 2));
 
   const byCond = {};
   for (const r of rows) {
