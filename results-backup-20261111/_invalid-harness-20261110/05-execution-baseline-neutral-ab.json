@@ -1,0 +1,4168 @@
+{
+  "ranAt": "2026-11-10T13:38:36.252Z",
+  "baseUrl": "https://staging.pesantrenpersis27.com",
+  "repeat": 1,
+  "perturbationFile": null,
+  "rows": [
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2989,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1070,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "INF03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 904,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "INF04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 979,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "INF05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 959,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 941,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 923,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 933,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 897,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 887,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 931,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV07",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1180,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 908,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 905,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 912,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 899,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 929,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 895,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 926,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 921,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 883,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 889,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1195,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 906,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 903,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 880,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1189,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 954,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "INF03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 931,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "INF04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 947,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "INF05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 936,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 922,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 946,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 960,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 939,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1383,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 947,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV07",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 891,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 941,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1023,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 927,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 891,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 815,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 905,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 939,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 914,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1124,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1123,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 906,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 931,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 966,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1210,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 934,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 918,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "INF03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 916,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "INF04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 885,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "INF05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1231,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 918,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 903,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 914,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 964,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 982,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 925,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV07",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 915,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 910,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 985,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 925,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 897,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 900,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 893,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 898,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1135,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 886,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 902,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 805,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 909,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 886,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 940,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 889,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 891,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "INF03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 894,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "INF04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 919,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "INF05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 884,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 906,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 907,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 879,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 877,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 954,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 920,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV07",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1172,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 896,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 906,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 901,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 938,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 956,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 885,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 947,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 911,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 880,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 910,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 797,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 900,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 942,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1004,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1015,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 952,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "INF03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 943,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "INF04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 926,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "INF05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 898,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 944,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 949,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 916,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 909,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 933,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1239,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV07",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 918,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 892,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 940,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 933,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1337,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 908,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 966,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1210,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 931,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 909,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 924,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 881,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 877,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 908,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 941,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 930,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 939,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "INF03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1057,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "INF04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1252,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "INF05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 894,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 898,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 925,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 866,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 929,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 885,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 899,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV07",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 793,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 938,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 904,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 899,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 925,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 898,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 900,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 878,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 887,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1098,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 894,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 901,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 878,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 887,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 894,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 893,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 907,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "INF03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 891,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "INF04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 888,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "INF05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 911,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 947,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 939,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 916,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 922,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 917,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 897,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV07",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 949,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 889,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 911,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 900,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 888,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 913,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 899,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 902,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 885,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 902,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 920,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 788,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 900,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 907,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 918,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 885,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 879,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "INF03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 883,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "INF04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 896,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "INF05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 905,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 875,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 884,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 884,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 914,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 897,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 926,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV07",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 809,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 883,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 898,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 930,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 885,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 898,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 952,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 958,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 893,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 927,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 910,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 941,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 893,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 917,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1150,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 944,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 899,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "INF03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 934,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "INF04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 871,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "INF05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 911,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 889,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 883,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 909,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 921,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 899,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 927,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV07",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1045,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 923,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 928,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 878,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 889,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 786,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1108,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 946,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 901,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 891,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 897,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 946,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 978,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 971,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 864,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 892,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 892,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "INF03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1151,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "INF04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 911,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "INF05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1065,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 897,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1059,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 910,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 925,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 885,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 882,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV07",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 905,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1145,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 877,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 883,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 953,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 885,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 888,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 872,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 925,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 878,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 880,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 935,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 878,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 874,
+      "first_errors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 914,
+      "first_errors": []
+    }
+  ]
+}

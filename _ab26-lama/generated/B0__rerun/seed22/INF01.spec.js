@@ -1,0 +1,11 @@
+const { test, expect } = require('@playwright/test');
+
+test.describe('INF01: Membaca visi dan misi pada halaman profil', () => {
+  test('Visi dan misi terlihat', async ({ page }) => {
+    await page.goto('https://staging.pesantrenpersis27.com/profil');
+    const visiLocator = page.locator('text=Visi');
+    await expect(visiLocator).toBeVisible();
+    const misiLocator = page.locator('text=Misi');
+    await expect(misiLocator).toBeVisible();
+  });
+});

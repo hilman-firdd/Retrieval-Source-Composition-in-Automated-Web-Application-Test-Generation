@@ -1,0 +1,11 @@
+const { test, expect } = require('@playwright/test');
+
+test.describe('Berpindah dari beranda ke daftar berita', () => {
+  test('berpindah dari beranda ke daftar berita', async ({ page }) => {
+    await page.goto('/');
+    await expect(page.getByText('Info Terbaru')).toBeVisible();
+    await page.getByText('Info Terbaru').click();
+    await expect(page).toHaveURL('/portal/berita');
+    await expect(page.getByRole('heading', { name: 'Berita Terbaru' })).toBeVisible();
+  });
+});

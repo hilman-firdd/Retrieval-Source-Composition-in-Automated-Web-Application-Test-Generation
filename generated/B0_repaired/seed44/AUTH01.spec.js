@@ -1,0 +1,13 @@
+const { test, expect } = require('@playwright/test');
+
+test.describe('AUTH01: Menampilkan formulir login dengan lengkap', () => {
+  test('Login form is displayed', async ({ page }) => {
+    await page.goto('https://staging.pesantrenpersis27.com/login');
+    const usernameInput = page.locator('input#username');
+    const passwordInput = page.locator('input#password');
+    const submitButton = page.locator('button[type="submit"]');
+    await expect(usernameInput).toBeVisible();
+    await expect(passwordInput).toBeVisible();
+    await expect(submitButton).toBeVisible();
+  });
+});

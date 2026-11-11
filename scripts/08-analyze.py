@@ -11,6 +11,11 @@ Uji statistik yang dipakai:
   - Cliff's delta sebagai effect size non-parametrik, karena p-value saja tidak menyatakan
     seberapa besar perbedaannya
 
+CATATAN AUDIT (10 Nov 2026): skrip ini dipertahankan sebagai ringkasan cepat saja.
+Angka untuk manuskrip WAJIB diambil dari scripts/09-recompute.py (uji per skenario,
+Holm, rank-biserial berpasangan, metrik efektif dengan penyebut yang benar).
+Fault detection / robustness di sini bersifat BERSYARAT (hanya skrip lolos baseline).
+
 Pemakaian:
   python scripts/08-analyze.py
   python scripts/08-analyze.py --out results/tables.md
@@ -145,6 +150,13 @@ def collect_metrics():
             cell = m[rec["condition"]][f"seed{rec['seed']}"][rec["scenario_id"]]
             cell["generation_latency_s"] = rec["generation_latency_s"]
             cell["context_chars"] = rec["context_chars"]
+
+    # Protokol utama = 5 seed (temperature 0,2). Run greedy (temperature 0) TIDAK boleh
+    # dicampur ke rata-rata/uji, karena kondisi ablasi tidak punya run greedy dan
+    # perturbasi tidak dijalankan pada greedy. Greedy dilaporkan terpisah oleh 09-recompute.py.
+    for cond in list(m):
+        for run in [r for r in m[cond] if not str(r).startswith("seed")]:
+            del m[cond][run]
 
     return m
 

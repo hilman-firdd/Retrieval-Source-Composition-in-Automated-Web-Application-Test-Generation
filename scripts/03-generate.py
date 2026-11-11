@@ -14,6 +14,7 @@ Pemakaian:
   python scripts/03-generate.py --conditions B0 P        # subset
   python scripts/03-generate.py --ablations              # sertakan kondisi ablasi
   python scripts/03-generate.py --greedy                 # run referensi deterministik (temperature 0)
+  python scripts/03-generate.py --conditions B0 --prompt-variant neutral   # B0 prompt netral
 """
 
 import argparse
@@ -44,6 +45,23 @@ Output contract — follow exactly:
 - Use only locators and routes that appear in the provided context. If the context does not
   contain an element you need, choose the closest element that IS in the context.
 - Do not invent data-testid attributes that are not present in the context."""
+
+# Varian NETRAL (revisi audit 10 Nov 2026, Critical #4). SYSTEM_PROMPT di atas menempatkan
+# getByTestId sebagai preferensi pertama; pada B0 (tanpa konteks) model mengikuti instruksi
+# itu, sehingga "halusinasi getByTestId" tidak dapat dipisahkan dari efek prompt.
+# Varian ini menghapus urutan preferensi locator; aturan lain identik.
+SYSTEM_PROMPT_NEUTRAL = SYSTEM_PROMPT.replace(
+    """- Prefer stable locators in this order: getByTestId, locator('#id'), getByLabel, getByPlaceholder,
+  getByRole with an accessible name. Use CSS class selectors or XPath only as a last resort.""",
+    """- Choose locators that are likely to remain stable when the page layout changes.""",
+).replace(
+    """
+- Do not invent data-testid attributes that are not present in the context.""",
+    """
+- Do not invent attributes that are not present in the context.""",
+)
+assert SYSTEM_PROMPT_NEUTRAL != SYSTEM_PROMPT and "getByTestId" not in SYSTEM_PROMPT_NEUTRAL
+PROMPTS = {"original": SYSTEM_PROMPT, "neutral": SYSTEM_PROMPT_NEUTRAL}
 
 
 def load_index():
@@ -89,6 +107,8 @@ def retrieve(query, index, chunks, model, sources, per_source_k, single_k):
 
 
 def build_context(retrieved, budget):
+    """Kembalikan (konteks, karakter terpakai, jumlah chunk yang MASUK). Chunk yang tidak
+    muat dibuang diam-diam; itu sebabnya jumlah yang masuk dicatat di log."""
     blocks, used = [], 0
     for r in retrieved:
         block = f"--- [{r['source_type']}] {r['source_file']} (similarity={r['score']:.3f}) ---\n{r['text']}\n"
@@ -96,7 +116,7 @@ def build_context(retrieved, budget):
             continue
         blocks.append(block)
         used += len(block)
-    return "\n".join(blocks), used
+    return "\n".join(blocks), used, len(blocks)
 
 
 def raw_dom_context(scenario, budget):
@@ -148,11 +168,11 @@ def strip_fences(text):
     return text.strip() + "\n"
 
 
-def call_ollama(prompt, temperature, seed):
+def call_ollama(prompt, temperature, seed, system_prompt=SYSTEM_PROMPT):
     payload = {
         "model": GEN["model"],
         "prompt": prompt,
-        "system": SYSTEM_PROMPT,
+        "system": system_prompt,
         "stream": False,
         "options": {
             "temperature": temperature,
@@ -175,7 +195,23 @@ def main():
     ap.add_argument("--ablations", action="store_true")
     ap.add_argument("--greedy", action="store_true", help="run referensi deterministik temperature=0")
     ap.add_argument("--limit", type=int, default=None, help="batasi jumlah skenario (untuk uji coba)")
+    ap.add_argument("--retrieval-only", action="store_true",
+                    help="HANYA retrieval + ukur konteks; tidak memanggil Ollama dan tidak menulis skrip. "
+                         "Keluaran: results/03-retrieval-audit.jsonl (uji klaim 'context competition')")
+    ap.add_argument("--context-budget", type=int, default=None,
+                    help="timpa retrieval.contextCharBudget (uji budget terkontrol); hasil diberi akhiran __budget<N>")
+    ap.add_argument("--suffix", default=None,
+                    help="akhiran nama kondisi (mis. __rerun) agar tidak menimpa/bercampur dengan kondisi lama")
+    ap.add_argument("--prompt-variant", choices=sorted(PROMPTS), default="original",
+                    help="'neutral' = tanpa urutan preferensi locator (uji ulang klaim getByTestId)")
     args = ap.parse_args()
+    system_prompt = PROMPTS[args.prompt_variant]
+    cond_suffix = "" if args.prompt_variant == "original" else f"__{args.prompt_variant}"
+    if args.context_budget:
+        RET["contextCharBudget"] = args.context_budget
+        cond_suffix += f"__budget{args.context_budget}"
+    if args.suffix:
+        cond_suffix = args.suffix
 
     scenarios = json.loads((ROOT / "scenarios/scenarios.json").read_text())["scenarios"]
     if args.limit:
@@ -196,11 +232,14 @@ def main():
     seeds = [GEN["greedyReferenceRun"]["seed"]] if args.greedy else GEN["seeds"]
     temperature = GEN["greedyReferenceRun"]["temperature"] if args.greedy else GEN["temperature"]
     tag = "greedy" if args.greedy else "seed"
+    if args.retrieval_only:
+        seeds = seeds[:1]   # retrieval deterministik: satu "seed" cukup
 
     base_url = CONFIG["sut"]["baseUrl"]
     log_path = ROOT / "results/03-generation-log.jsonl"
     log_path.parent.mkdir(parents=True, exist_ok=True)
     log = log_path.open("a", encoding="utf-8")
+    audit = (ROOT / "results/03-retrieval-audit.jsonl").open("a", encoding="utf-8") if args.retrieval_only else None
 
     total = len(names) * len(seeds) * len(scenarios)
     done = 0
@@ -210,8 +249,9 @@ def main():
     for cond_name in names:
         cond = all_conditions[cond_name]
         for seed in seeds:
-            out_dir = ROOT / "generated" / cond_name / f"{tag}{seed}"
-            out_dir.mkdir(parents=True, exist_ok=True)
+            out_dir = ROOT / "generated" / f"{cond_name}{cond_suffix}" / f"{tag}{seed}"
+            if not args.retrieval_only:
+                out_dir.mkdir(parents=True, exist_ok=True)
             for sc in scenarios:
                 done += 1
                 head = f"[{done}/{total}] {cond_name}/{tag}{seed}/{sc['id']}"
@@ -221,15 +261,34 @@ def main():
                 if cond["retrieval"]:
                     retrieved = retrieve(query, index, chunks, model, cond["sources"],
                                          RET["topKPerSource"], RET["topKSingleSource"])
-                    context, ctx_chars = build_context(retrieved, RET["contextCharBudget"])
+                    context, ctx_chars, n_in = build_context(retrieved, RET["contextCharBudget"])
                 elif cond.get("rawDom"):
                     context, ctx_chars = raw_dom_context(sc, RET["contextCharBudget"])
+                    n_in = 1 if context else 0
                 else:
-                    context = ""
+                    context, n_in = "", 0
+
+                if args.retrieval_only:
+                    audit.write(json.dumps({
+                        "condition": f"{cond_name}{cond_suffix}",
+                        "scenario_id": sc["id"],
+                        "context_chars": ctx_chars,
+                        "context_budget": RET["contextCharBudget"],
+                        "chunks_retrieved": len(retrieved),
+                        "chunks_in_context": n_in,
+                        "chunks_dropped_by_budget": len(retrieved) - n_in if cond["retrieval"] else 0,
+                        "per_source_retrieved": {t: sum(1 for r in retrieved if r["source_type"] == t)
+                                                 for t in sorted({r["source_type"] for r in retrieved})},
+                        "chunk_chars": [len(r["text"]) for r in retrieved],
+                        "sources": [[r["source_type"], r["source_file"], round(r["score"], 4)] for r in retrieved],
+                    }, ensure_ascii=False) + "\n")
+                    print(f"{head} retrieval-only  konteks={ctx_chars:>6}/{RET['contextCharBudget']}  "
+                          f"chunk={n_in}/{len(retrieved)}")
+                    continue
 
                 prompt = build_prompt(sc, context, base_url)
                 try:
-                    raw, latency, meta = call_ollama(prompt, temperature, seed)
+                    raw, latency, meta = call_ollama(prompt, temperature, seed, system_prompt)
                     code = strip_fences(raw)
                     (out_dir / f"{sc['id']}.spec.js").write_text(code, encoding="utf-8")
                     status = "ok"
@@ -239,7 +298,8 @@ def main():
                     print(f"{head} GAGAL: {e}")
 
                 log.write(json.dumps({
-                    "condition": cond_name,
+                    "condition": f"{cond_name}{cond_suffix}",
+                    "prompt_variant": args.prompt_variant,
                     "seed": seed,
                     "temperature": temperature,
                     "scenario_id": sc["id"],
@@ -248,6 +308,11 @@ def main():
                     "generation_latency_s": round(latency, 3),
                     "prompt_chars": len(prompt),
                     "context_chars": ctx_chars,
+                    "context_budget": RET["contextCharBudget"],
+                    "chunks_per_source": {t: sum(1 for r in retrieved if r["source_type"] == t)
+                                          for t in sorted({r["source_type"] for r in retrieved})},
+                    "chunks_in_context": n_in,
+                    "chunks_dropped_by_budget": (len(retrieved) - n_in) if retrieved else 0,
                     "output_chars": len(code),
                     "retrieved": [
                         {"source_type": r["source_type"], "source_file": r["source_file"],
@@ -262,6 +327,8 @@ def main():
                     print(f"{head} ok  {latency:6.1f}s  konteks={ctx_chars:>6} char  keluaran={len(code):>5} char")
 
     log.close()
+    if audit:
+        audit.close()
     print(f"\nSelesai. Skrip ada di generated/, catatan lengkap di {log_path}")
 
 
