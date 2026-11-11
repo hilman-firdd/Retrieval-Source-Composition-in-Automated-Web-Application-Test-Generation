@@ -1,0 +1,8 @@
+node_modules/
+.venv/
+__pycache__/
+kb/index/
+kb/dom-snapshots/raw/
+test-results/
+playwright-report/
+.DS_Store

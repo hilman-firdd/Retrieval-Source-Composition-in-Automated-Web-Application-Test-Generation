@@ -1,0 +1,2991 @@
+{
+  "probedAt": "2026-11-10T17:12:41.928Z",
+  "rows": [
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Visi",
+        "locator:text=Misi"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=PPDB"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "INF03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "INF04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "INF05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Alamat",
+        "locator:text=Nomor Telepon | Email"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Profil"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Program Pendidikan"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Segmen Galeri"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NWS01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NWS02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:ul.berita-list",
+        "locator:h1.title"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NWS05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Terbit: *"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Pesan kesalahan format surel"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:select option",
+        "locator:select option:checked"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Visi",
+        "locator:text=Misi"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=PPDB"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "INF03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "INF04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "INF05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Alamat:",
+        "locator:text=Telepon: | text=Email:"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:role="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Program Pendidikan"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NWS01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NWS02",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Berita 1",
+        "locator:h1:has-text(",
+        "locator:text:has-word("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Judul Berita",
+        "locator:text=Detail Berita"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NWS05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Publication Date: *"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Pesan kesalahan format surel",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:select option",
+        "locator:select option:checked"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Visi",
+        "locator:text=Misi"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=PPDB"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "INF03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "INF04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "INF05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Alamat",
+        "locator:text=Telepon|Email"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:role="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Program Pendidikan"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NWS01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NWS02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NWS03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Judul Berita"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NWS05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Terbit: *"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Pesan kesalahan format surel"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:select option",
+        "locator:select option:checked"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Visi",
+        "locator:text=Misi"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Alur Pendaftaran"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "INF03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "INF04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "INF05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Alamat",
+        "locator:text=Nomor Telepon|Email"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Profil"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Program Pendidikan"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Segmen Galeri"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NWS01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Berita 1",
+        "locator:text:has-text("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:ul.news-list",
+        "locator:main.detail-page"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NWS05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=.*"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:textarea[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:select[name=",
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Visi",
+        "locator:text=Misi"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=PPDB"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "INF03",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "INF04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "INF05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Alamat",
+        "locator:text=Telepon|Email"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:text=Menu Navigasi"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Program Pendidikan"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Galeri"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NWS01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NWS02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Judul Berita"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NWS05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Terbit: *"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:div[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:.form-check",
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Visi",
+        "locator:text=Misi"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "INF03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "INF04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "INF05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Alamat",
+        "locator:text=Nomor Telepon|Email"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:a[aria-label="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Program Pendidikan"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV07",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Galeri"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NWS01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:div[data-testid="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NWS03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=.*"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NWS04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id=",
+        "locator:button[data-test-id="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NWS05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Jumat, 15 Juli 2022"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:button:has-text(",
+        "locator:form"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG02",
+      "total_selectors": 4,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type=",
+        "locator:div.error-message",
+        "testid:wajib"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[data-test-id=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG06",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:select",
+        "locator:input[name=",
+        "testid:education-level"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "placeholder:Nama"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Visi",
+        "locator:text=Misi"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Alur Pendaftaran | Jadwal Pendaftaran"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "INF03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "INF04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "INF05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Alamat"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:a[title="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Galeri",
+        "locator:role=image"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV08",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Halaman tidak ditemukan",
+        "locator:text=Kembali ke Beranda"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NWS01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NWS03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NWS04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:button:has-text(",
+        "locator:ul li:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NWS05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Jumat, 17 Maret 2023"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:button:has-text(",
+        "locator:form"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG02",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type=",
+        "locator:div.error"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=",
+        "role:alert||Invalid phone number"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:select",
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Visi",
+        "locator:text=Misi"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "INF03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "INF04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "INF05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Alamat"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:a[aria-label="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV07",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Galeri"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NWS01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:div[data-testid="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NWS02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NWS03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Judul Berita Pertama"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NWS05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Jumat, 17 Maret 2023"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:button:has-text(",
+        "locator:form"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG02",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type=",
+        "locator:div:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[aria-required=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=",
+        "testid:error-message"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG06",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:select",
+        "locator:input[name=",
+        "testid:education-level"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "placeholder:Nama"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "INF01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "INF03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "INF04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "INF05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Alamat"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:a[aria-label="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Program Pendidikan"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:header",
+        "locator:main"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Galeri"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NWS01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:div[data-testid="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NWS03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NWS05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=YYYY-MM-DD"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:button:has-text(",
+        "locator:form"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG02",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type=",
+        "testid:name"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=",
+        "role:alert||Invalid phone number"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:select"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "INF01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "INF02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "INF03",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "INF04",
+      "total_selectors": 4,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type=",
+        "placeholder:Search..."
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "INF05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Alamat",
+        "locator:text=Nomor Telepon | Email"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:a[aria-label="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Program Pendidikan"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "role:link||Galeri"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NWS01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NWS02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "text:Judul Berita"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NWS05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Jumat, 15 Juli 2022"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:button:has-text(",
+        "locator:form"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG02",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type=",
+        "locator:div:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Pesan kesalahan format surel"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=",
+        "testid:invalid-phone-number-indicator"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG06",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:select",
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "RES01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    }
+  ]
+}

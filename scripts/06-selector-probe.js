@@ -13,6 +13,7 @@
  * Pemakaian:
  *   node scripts/06-selector-probe.js --all
  *   node scripts/06-selector-probe.js --dir generated/P/seed11
+ *   node scripts/06-selector-probe.js --all --conditions B0__neutral,B0__rerun --out results/06-selector-validity-neutral-ab.json
  */
 
 const fs = require('fs');
@@ -23,36 +24,11 @@ const ROOT = path.resolve(__dirname, '..');
 const CONFIG = JSON.parse(fs.readFileSync(path.join(ROOT, 'config/experiment.config.json'), 'utf8'));
 const SCENARIOS = JSON.parse(fs.readFileSync(path.join(ROOT, 'scenarios/scenarios.json'), 'utf8')).scenarios;
 
-/** Ekstraksi selector dari sumber. Menangkap bentuk locator string maupun getBy*. */
-function extractSelectors(src) {
-  const found = [];
-  const push = (kind, value) => { if (value) found.push({ kind, value }); };
-
-  const patterns = [
-    [/(?:page|frame)\s*\.\s*locator\(\s*['"`]([^'"`]+)['"`]/g, 'locator'],
-    [/(?:page|frame)\s*\.\s*\$\$?\(\s*['"`]([^'"`]+)['"`]/g, 'locator'],
-    [/getByTestId\(\s*['"`]([^'"`]+)['"`]/g, 'testid'],
-    [/getByLabel\(\s*['"`]([^'"`]+)['"`]/g, 'label'],
-    [/getByPlaceholder\(\s*['"`]([^'"`]+)['"`]/g, 'placeholder'],
-    [/getByText\(\s*['"`]([^'"`]+)['"`]/g, 'text'],
-    [/getByRole\(\s*['"`]([^'"`]+)['"`]\s*,\s*\{\s*name:\s*['"`]([^'"`]+)['"`]/g, 'role']
-  ];
-
-  for (const [re, kind] of patterns) {
-    let m;
-    while ((m = re.exec(src)) !== null) {
-      push(kind, kind === 'role' ? `${m[1]}||${m[2]}` : m[1]);
-    }
-  }
-  // buang duplikat
-  const seen = new Set();
-  return found.filter((f) => {
-    const key = `${f.kind}:${f.value}`;
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
-}
+// Ekstraksi locator v2: lihat scripts/lib/selectors.js (v1 memotong selector yang berisi
+// tanda kutip, sehingga selector itu selalu terhitung tidak valid). Uji tanpa jaringan:
+//   node scripts/06b-selector-extract-check.js
+const { extractSelectors } = require('./lib/selectors');
+const EXTRACTOR_VERSION = 'v2';
 
 async function resolves(page, sel) {
   try {
@@ -61,9 +37,11 @@ async function resolves(page, sel) {
     else if (sel.kind === 'label') loc = page.getByLabel(sel.value);
     else if (sel.kind === 'placeholder') loc = page.getByPlaceholder(sel.value);
     else if (sel.kind === 'text') loc = page.getByText(sel.value);
+    else if (sel.kind === 'alt') loc = page.getByAltText(sel.value);
+    else if (sel.kind === 'title') loc = page.getByTitle(sel.value);
     else if (sel.kind === 'role') {
       const [role, name] = sel.value.split('||');
-      loc = page.getByRole(role, { name });
+      loc = name ? page.getByRole(role, { name }) : page.getByRole(role);
     } else loc = page.locator(sel.value);
     return (await loc.count()) > 0;
   } catch (_) {
@@ -92,8 +70,10 @@ function collectRunDirs(all, dir) {
 
 (async () => {
   const args = process.argv.slice(2);
-  const dir = args.includes('--dir') ? args[args.indexOf('--dir') + 1] : null;
-  const targets = collectRunDirs(args.includes('--all'), dir);
+  const arg = (f) => (args.includes(f) ? args[args.indexOf(f) + 1] : null);
+  const dir = arg('--dir');
+  const only = arg('--conditions') ? arg('--conditions').split(',') : null;
+  const targets = collectRunDirs(args.includes('--all'), dir).filter((t) => !only || only.includes(t.condition));
   if (!targets.length) {
     console.error('Tentukan --dir <folder> atau --all.');
     process.exit(1);
@@ -167,9 +147,9 @@ function collectRunDirs(all, dir) {
 
   await browser.close();
 
-  const out = path.join(ROOT, 'results/06-selector-validity.json');
+  const out = path.resolve(ROOT, arg('--out') || 'results/06-selector-validity.json');
   fs.mkdirSync(path.dirname(out), { recursive: true });
-  fs.writeFileSync(out, JSON.stringify({ probedAt: new Date().toISOString(), rows }, null, 2));
+  fs.writeFileSync(out, JSON.stringify({ probedAt: new Date().toISOString(), extractor: EXTRACTOR_VERSION, rows }, null, 2));
 
   const byCond = {};
   for (const r of rows) {

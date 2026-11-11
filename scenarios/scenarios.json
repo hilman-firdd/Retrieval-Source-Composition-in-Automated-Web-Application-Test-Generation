@@ -1,12 +1,13 @@
 {
   "sut": "Pesantren PERSIS 27 Situaksan (staging)",
-  "note": "Sesuaikan start_path dan detail ekspektasi dengan struktur staging yang sebenarnya setelah menjalankan 01-capture-dom.js --discover. Target minimum 40 skenario; 24 di bawah ini adalah kerangka awal yang bisa diperluas per kategori.",
+  "note": "Diperbarui berdasarkan struktur staging yang sebenarnya (hasil 01-capture-dom.js --discover dan verifikasi manual per 2026-09-10). Situs ini berbasis CMS dengan prefix /portal, bukan rute datar seperti /profil atau /ppdb. Formulir pendaftaran adalah embed Google Form pihak ketiga (lihat REQ-REG-02) — jangan tambahkan skenario yang mengisi/mengirim formulir tersebut.",
   "categories": {
     "navigation": "Perpindahan antar halaman dan konsistensi menu",
-    "information": "Penemuan informasi statis dan pencarian",
+    "account": "Login SIMASIS dan validasinya",
     "news": "Daftar dan detail berita",
-    "registration": "Alur PPDB dan validasi formulir",
-    "contact": "Formulir kontak dan informasi hubungi kami",
+    "articles": "Daftar dan detail artikel tulisan santri",
+    "registration": "Akses informasi pendaftaran pesantren khusus",
+    "information": "Halaman statis dan FAQ",
     "resilience": "Perilaku pada masukan tidak wajar dan kondisi batas"
   },
   "scenarios": [
@@ -16,66 +17,62 @@
       "title": "Membuka beranda dan memverifikasi identitas situs",
       "start_route": "home",
       "start_path": "/",
-      "description": "Pengunjung membuka beranda. Halaman harus termuat dengan judul dokumen yang memuat nama pesantren dan menampilkan menu navigasi utama.",
-      "expected": [
-        "Judul dokumen memuat nama pesantren",
-        "Menu navigasi utama terlihat",
-        "Judul utama halaman terlihat"
-      ]
+      "description": "Pengunjung membuka beranda. Judul dokumen harus memuat kata Pesantren, menu navigasi utama (#portalNavbar) terlihat, dan judul utama halaman terlihat.",
+      "expected": ["Judul dokumen memuat kata Pesantren", "Menu navigasi utama terlihat", "Judul utama halaman terlihat"]
     },
     {
       "id": "NAV02",
       "category": "navigation",
-      "title": "Berpindah dari beranda ke halaman profil",
+      "title": "Berpindah dari beranda ke daftar berita",
       "start_route": "home",
       "start_path": "/",
-      "description": "Pengunjung mengeklik tautan profil pada menu navigasi. URL harus berubah ke halaman profil dan konten profil harus tampil.",
-      "expected": ["URL memuat segmen profil", "Judul halaman profil terlihat"]
+      "description": "Pengunjung mengeklik tautan 'Semua Berita' atau 'Info Terbaru' pada beranda menuju daftar berita.",
+      "expected": ["URL berubah ke /portal/berita", "Judul 'Berita Terbaru' terlihat"]
     },
     {
       "id": "NAV03",
       "category": "navigation",
-      "title": "Berpindah dari beranda ke halaman program pendidikan",
+      "title": "Berpindah dari beranda ke daftar artikel santri",
       "start_route": "home",
       "start_path": "/",
-      "description": "Pengunjung membuka halaman program pendidikan melalui menu navigasi dan melihat daftar jenjang atau program yang tersedia.",
-      "expected": ["URL memuat segmen program", "Daftar program terlihat"]
+      "description": "Pengunjung mengeklik tautan 'Lihat Semua' pada bagian Artikel Tulisan Santri menuju daftar artikel.",
+      "expected": ["URL berubah ke /portal/artikel", "Judul 'Artikel Tulisan Santri' terlihat"]
     },
     {
       "id": "NAV04",
       "category": "navigation",
-      "title": "Kembali ke beranda melalui logo situs",
-      "start_route": "profil",
-      "start_path": "/profil",
-      "description": "Dari halaman profil, pengunjung mengeklik logo atau nama situs pada header untuk kembali ke beranda.",
-      "expected": ["URL kembali ke akar situs", "Konten beranda terlihat"]
+      "title": "Menu navigasi konsisten di seluruh halaman portal",
+      "start_route": "home",
+      "start_path": "/",
+      "description": "Pengunjung menelusuri beranda, daftar berita, dan daftar artikel secara berurutan. Elemen #portalNavbar harus tetap terlihat pada ketiganya.",
+      "expected": ["#portalNavbar terlihat pada setiap halaman yang dikunjungi"]
     },
     {
       "id": "NAV05",
       "category": "navigation",
-      "title": "Menu navigasi konsisten di seluruh halaman utama",
-      "start_route": "home",
-      "start_path": "/",
-      "description": "Pengunjung menelusuri beranda, profil, dan berita secara berurutan. Menu navigasi utama harus tetap tersedia pada ketiga halaman.",
-      "expected": ["Menu navigasi terlihat pada setiap halaman yang dikunjungi"]
+      "title": "Kembali ke beranda dari daftar berita",
+      "start_route": "portal-berita",
+      "start_path": "/portal/berita",
+      "description": "Dari daftar berita, pengunjung mengeklik tautan 'Beranda' pada menu untuk kembali ke halaman portal utama.",
+      "expected": ["URL berubah ke /portal", "Konten beranda terlihat"]
     },
     {
       "id": "NAV06",
       "category": "navigation",
-      "title": "Membuka halaman kontak dari tautan footer",
+      "title": "Membuka FAQ SIMASIS dari tautan footer",
       "start_route": "home",
       "start_path": "/",
-      "description": "Pengunjung menggulir ke bagian footer dan membuka halaman kontak dari sana.",
-      "expected": ["URL memuat segmen kontak", "Informasi kontak terlihat"]
+      "description": "Pengunjung mengeklik tautan 'FAQ SIMASIS' pada footer untuk membuka halaman FAQ.",
+      "expected": ["URL memuat segmen faq-simasis", "Judul 'FAQ SIMASIS' terlihat"]
     },
     {
       "id": "NAV07",
       "category": "navigation",
-      "title": "Membuka halaman galeri dan memverifikasi konten visual",
-      "start_route": "home",
-      "start_path": "/",
-      "description": "Pengunjung membuka halaman galeri melalui menu dan memastikan setidaknya satu gambar termuat.",
-      "expected": ["URL memuat segmen galeri", "Setidaknya satu elemen gambar terlihat"]
+      "title": "Membuka halaman login SIMASIS",
+      "start_route": "login",
+      "start_path": "/login",
+      "description": "Pengunjung membuka halaman login SIMASIS secara langsung.",
+      "expected": ["Judul 'SIMASIS' terlihat", "Kolom username dan password terlihat"]
     },
     {
       "id": "NAV08",
@@ -83,174 +80,188 @@
       "title": "Menangani alamat halaman yang tidak dikenal",
       "start_route": "home",
       "start_path": "/halaman-tidak-ada-12345",
-      "description": "Pengunjung membuka alamat yang tidak terdaftar. Situs harus menampilkan halaman kesalahan yang jelas, bukan halaman kosong.",
-      "expected": ["Halaman menampilkan indikasi tidak ditemukan", "Navigasi kembali ke beranda tersedia"]
+      "description": "Pengunjung membuka alamat yang tidak terdaftar. SUT saat ini menampilkan judul dokumen 'Not Found' dan teks '404 NOT FOUND' TANPA tautan navigasi kembali ke beranda (lihat REQ-NAV-06). Skenario ini menguji perilaku SUT apa adanya, bukan perilaku ideal.",
+      "expected": ["Judul dokumen memuat 'Not Found'", "Teks 404 terlihat"]
     },
     {
-      "id": "INF01",
-      "category": "information",
-      "title": "Membaca visi dan misi pada halaman profil",
-      "start_route": "profil",
-      "start_path": "/profil",
-      "description": "Pengunjung membuka halaman profil dan mencari bagian visi dan misi pesantren.",
-      "expected": ["Bagian visi terlihat", "Bagian misi terlihat"]
+      "id": "AUTH01",
+      "category": "account",
+      "title": "Menampilkan formulir login dengan lengkap",
+      "start_route": "login",
+      "start_path": "/login",
+      "description": "Pengunjung membuka halaman login. Kolom username (#username), kolom password (#password), dan tombol 'Masuk' harus terlihat.",
+      "expected": ["Kolom username terlihat", "Kolom password terlihat", "Tombol Masuk terlihat"]
     },
     {
-      "id": "INF02",
-      "category": "information",
-      "title": "Membaca informasi jadwal atau alur PPDB",
-      "start_route": "ppdb",
-      "start_path": "/ppdb",
-      "description": "Calon santri membuka halaman PPDB untuk membaca alur dan jadwal pendaftaran.",
-      "expected": ["Judul halaman PPDB terlihat", "Informasi alur atau jadwal pendaftaran terlihat"]
+      "id": "AUTH02",
+      "category": "account",
+      "title": "Validasi formulir login pada kiriman kosong",
+      "start_route": "login",
+      "start_path": "/login",
+      "description": "Pengunjung menekan tombol 'Masuk' tanpa mengisi kolom apa pun. Validasi bawaan peramban menahan kiriman karena kolom username bersifat required, dan halaman tetap di /login.",
+      "expected": ["URL tetap di /login", "Kolom username menampilkan pesan validasi tidak kosong"]
     },
     {
-      "id": "INF03",
-      "category": "information",
-      "title": "Mencari informasi melalui kolom pencarian",
-      "start_route": "home",
-      "start_path": "/",
-      "description": "Pengunjung memasukkan kata kunci pada kolom pencarian lalu mengirimkannya. Halaman hasil pencarian harus tampil.",
-      "expected": ["Halaman hasil pencarian terbuka", "Kata kunci yang dicari tercermin pada halaman hasil"]
+      "id": "AUTH03",
+      "category": "account",
+      "title": "Penolakan kredensial login yang tidak valid",
+      "start_route": "login",
+      "start_path": "/login",
+      "description": "Pengunjung mengisi username dan password dengan nilai yang tidak terdaftar lalu menekan 'Masuk'. Halaman tetap di /login dan menampilkan pesan 'These credentials do not match our records.'",
+      "expected": ["URL tetap di /login", "Pesan 'These credentials do not match our records.' terlihat"]
     },
     {
-      "id": "INF04",
-      "category": "information",
-      "title": "Pencarian dengan kata kunci yang tidak ada hasilnya",
-      "start_route": "home",
-      "start_path": "/",
-      "description": "Pengunjung mencari kata kunci acak yang dipastikan tidak ada. Situs harus menampilkan pesan hasil kosong, bukan halaman rusak.",
-      "expected": ["Pesan hasil tidak ditemukan terlihat", "Halaman tetap dapat dinavigasi"]
+      "id": "AUTH04",
+      "category": "account",
+      "title": "Kembali ke beranda dari halaman login",
+      "start_route": "login",
+      "start_path": "/login",
+      "description": "Pengunjung mengeklik tautan 'Kembali ke Landing Page' pada halaman login untuk kembali ke beranda.",
+      "expected": ["URL kembali ke akar situs", "Konten beranda terlihat"]
     },
     {
-      "id": "INF05",
-      "category": "information",
-      "title": "Memverifikasi alamat dan kontak pesantren pada halaman kontak",
-      "start_route": "kontak",
-      "start_path": "/kontak",
-      "description": "Pengunjung membuka halaman kontak untuk memastikan alamat, nomor telepon, dan surel tercantum.",
-      "expected": ["Alamat terlihat", "Kontak telepon atau surel terlihat"]
-    },
-    {
-      "id": "NWS01",
+      "id": "NEWS01",
       "category": "news",
       "title": "Membuka daftar berita dan memverifikasi ada item",
-      "start_route": "berita",
-      "start_path": "/berita",
-      "description": "Pengunjung membuka halaman berita. Daftar berita harus memuat setidaknya satu item dengan judul.",
-      "expected": ["Daftar berita terlihat", "Jumlah item berita lebih dari nol"]
+      "start_route": "portal-berita",
+      "start_path": "/portal/berita",
+      "description": "Pengunjung membuka halaman berita. Daftar berita harus memuat sedikitnya satu judul (elemen h3).",
+      "expected": ["Judul 'Berita Terbaru' terlihat", "Jumlah item berita lebih dari nol"]
     },
     {
-      "id": "NWS02",
+      "id": "NEWS02",
       "category": "news",
       "title": "Membuka detail berita dari daftar",
-      "start_route": "berita",
-      "start_path": "/berita",
-      "description": "Pengunjung mengeklik judul berita pertama pada daftar dan membuka halaman detailnya.",
-      "expected": ["URL berubah ke halaman detail berita", "Judul berita terlihat pada halaman detail", "Isi berita terlihat"]
+      "start_route": "portal-berita",
+      "start_path": "/portal/berita",
+      "description": "Pengunjung mengeklik judul berita pertama pada daftar dan membuka halaman detailnya di bawah /portal/<slug-berita>.",
+      "expected": ["URL berubah ke halaman detail berita", "Judul berita terlihat pada halaman detail (elemen h1)"]
     },
     {
-      "id": "NWS03",
+      "id": "NEWS03",
       "category": "news",
       "title": "Judul berita pada daftar konsisten dengan halaman detail",
-      "start_route": "berita",
-      "start_path": "/berita",
-      "description": "Pengunjung mencatat judul berita pertama pada daftar, membuka detailnya, lalu memastikan judul pada halaman detail sama.",
+      "start_route": "portal-berita",
+      "start_path": "/portal/berita",
+      "description": "Pengunjung mencatat judul berita pertama pada daftar, membuka detailnya, lalu memastikan judul pada halaman detail (h1) sama persis.",
       "expected": ["Judul pada halaman detail sama dengan judul pada daftar"]
     },
     {
-      "id": "NWS04",
+      "id": "NEWS04",
       "category": "news",
       "title": "Menggunakan navigasi halaman pada daftar berita",
-      "start_route": "berita",
-      "start_path": "/berita",
-      "description": "Pengunjung berpindah ke halaman kedua daftar berita melalui kontrol paginasi.",
-      "expected": ["Halaman kedua terbuka", "Item berita pada halaman kedua berbeda dari halaman pertama"]
+      "start_route": "portal-berita",
+      "start_path": "/portal/berita",
+      "description": "Pengunjung berpindah ke halaman kedua daftar berita melalui /portal/berita?page=2. Item berita pada halaman kedua harus berbeda dari halaman pertama.",
+      "expected": ["Halaman kedua terbuka", "Judul berita pertama pada halaman kedua berbeda dari halaman pertama"]
     },
     {
-      "id": "NWS05",
+      "id": "NEWS05",
       "category": "news",
-      "title": "Memverifikasi tanggal terbit tercantum pada detail berita",
-      "start_route": "berita-detail",
-      "start_path": "/berita/1",
-      "description": "Pengunjung membuka satu berita dan memastikan tanggal terbit ditampilkan.",
-      "expected": ["Tanggal terbit terlihat pada halaman detail"]
+      "title": "Pencarian berita dengan kata kunci yang ada hasilnya",
+      "start_route": "portal-berita",
+      "start_path": "/portal/berita",
+      "description": "Pengunjung mengisi kolom pencarian (placeholder 'Cari berita...') dengan kata kunci 'santri' lalu menekan Enter. Hasil pencarian yang relevan harus tampil.",
+      "expected": ["URL memuat parameter search", "Sedikitnya satu hasil berita terlihat"]
     },
     {
-      "id": "NWS06",
+      "id": "NEWS06",
       "category": "news",
-      "title": "Kembali ke daftar berita dari halaman detail",
-      "start_route": "berita-detail",
-      "start_path": "/berita/1",
-      "description": "Dari halaman detail berita, pengunjung kembali ke daftar berita menggunakan navigasi peramban maupun tautan yang tersedia.",
-      "expected": ["Halaman daftar berita tampil kembali", "Daftar berita terlihat"]
+      "title": "Pencarian berita dengan kata kunci yang tidak ada hasilnya",
+      "start_route": "portal-berita",
+      "start_path": "/portal/berita",
+      "description": "Pengunjung mencari kata kunci acak yang dipastikan tidak ada. Halaman harus menampilkan teks '(0 hasil)' dan 'Tidak ada berita ditemukan', bukan halaman kosong atau galat.",
+      "expected": ["Teks '(0 hasil)' terlihat", "Pesan 'Tidak ada berita ditemukan' terlihat"]
+    },
+    {
+      "id": "ARTC01",
+      "category": "articles",
+      "title": "Membuka daftar artikel dan memverifikasi ada item",
+      "start_route": "portal-artikel",
+      "start_path": "/portal/artikel",
+      "description": "Pengunjung membuka halaman artikel. Daftar harus memuat sedikitnya satu judul (elemen h3).",
+      "expected": ["Judul 'Artikel Tulisan Santri' terlihat", "Jumlah item artikel lebih dari nol"]
+    },
+    {
+      "id": "ARTC02",
+      "category": "articles",
+      "title": "Membuka detail artikel dari daftar",
+      "start_route": "portal-artikel",
+      "start_path": "/portal/artikel",
+      "description": "Pengunjung mengeklik judul artikel pertama pada daftar dan membuka halaman detailnya di bawah /portal/<slug-artikel>.",
+      "expected": ["URL berubah ke halaman detail artikel", "Judul artikel terlihat pada halaman detail"]
+    },
+    {
+      "id": "ARTC03",
+      "category": "articles",
+      "title": "Menggunakan navigasi halaman pada daftar artikel",
+      "start_route": "portal-artikel",
+      "start_path": "/portal/artikel",
+      "description": "Pengunjung berpindah ke halaman kedua daftar artikel melalui /portal/artikel?page=2.",
+      "expected": ["Halaman kedua terbuka", "Judul artikel pertama pada halaman kedua berbeda dari halaman pertama"]
+    },
+    {
+      "id": "ARTC04",
+      "category": "articles",
+      "title": "Pencarian artikel dengan kata kunci yang tidak ada hasilnya",
+      "start_route": "portal-artikel",
+      "start_path": "/portal/artikel",
+      "description": "Pengunjung mencari kata kunci acak pada kolom pencarian artikel (placeholder 'Cari artikel...') yang dipastikan tidak ada hasilnya.",
+      "expected": ["Halaman menampilkan pesan hasil kosong, bukan galat", "Halaman tetap dapat dinavigasi"]
     },
     {
       "id": "REG01",
       "category": "registration",
-      "title": "Membuka formulir pendaftaran dari halaman PPDB",
-      "start_route": "ppdb",
-      "start_path": "/ppdb",
-      "description": "Calon santri mengeklik tombol daftar pada halaman PPDB dan diarahkan ke formulir pendaftaran.",
-      "expected": ["Halaman formulir pendaftaran terbuka", "Formulir pendaftaran terlihat"]
+      "title": "Mengakses halaman pendaftaran pesantren khusus",
+      "start_route": "pendaftaran-khusus",
+      "start_path": "/portal/halaman/pendaftaran-pesantren-khusus",
+      "description": "Pengunjung membuka halaman pendaftaran pesantren khusus tanpa perlu masuk akun.",
+      "expected": ["Judul 'PENDAFTARAN PESANTREN KHUSUS' terlihat"]
     },
     {
       "id": "REG02",
       "category": "registration",
-      "title": "Formulir pendaftaran menolak kiriman kosong",
-      "start_route": "pendaftaran",
-      "start_path": "/pendaftaran",
-      "description": "Calon santri langsung menekan tombol kirim tanpa mengisi apa pun. Formulir harus menolak dan menampilkan penanda kesalahan pada field wajib.",
-      "expected": ["Formulir tidak terkirim", "Penanda kesalahan pada field wajib terlihat"]
+      "title": "Memverifikasi tautan ke formulir eksternal tanpa mengisinya",
+      "start_route": "pendaftaran-khusus",
+      "start_path": "/portal/halaman/pendaftaran-pesantren-khusus",
+      "description": "Formulir pendaftaran adalah embed Google Form pihak ketiga (lihat REQ-REG-02). Skenario ini HANYA memverifikasi kehadiran tautan 'Buka di tab baru' yang mengarah ke docs.google.com/forms, dan TIDAK BOLEH mengisi atau mengirim formulir tersebut.",
+      "expected": ["Tautan 'Buka di tab baru' terlihat", "Atribut href tautan mengarah ke docs.google.com/forms"]
     },
     {
-      "id": "REG03",
-      "category": "registration",
-      "title": "Formulir pendaftaran menolak format surel yang tidak sah",
-      "start_route": "pendaftaran",
-      "start_path": "/pendaftaran",
-      "description": "Calon santri mengisi field surel dengan teks tanpa tanda at, lalu mengirimkan formulir.",
-      "expected": ["Pesan kesalahan format surel terlihat", "Formulir tidak berpindah halaman"]
+      "id": "INF01",
+      "category": "information",
+      "title": "Mengakses halaman brosur pesantren umum",
+      "start_route": "brosur-umum",
+      "start_path": "/portal/halaman/brosur-pesantren-umum",
+      "description": "Pengunjung membuka halaman brosur pesantren umum, yang sebagian besar berupa gambar brosur dengan sedikit elemen teks terstruktur.",
+      "expected": ["Judul 'BROSUR PESANTREN UMUM' terlihat", "Menu navigasi tetap terlihat"]
     },
     {
-      "id": "REG04",
-      "category": "registration",
-      "title": "Mengisi seluruh field wajib pada formulir pendaftaran",
-      "start_route": "pendaftaran",
-      "start_path": "/pendaftaran",
-      "description": "Calon santri mengisi seluruh field wajib dengan data uji yang valid. Verifikasi dilakukan pada nilai yang tersimpan di field, TANPA menekan tombol kirim, agar tidak mencemari basis data staging.",
-      "expected": [
-        "Setiap field wajib berisi nilai yang dimasukkan",
-        "Tidak ada penanda kesalahan yang muncul",
-        "Formulir tidak dikirimkan"
-      ]
-    },
-    {
-      "id": "REG05",
-      "category": "registration",
-      "title": "Field nomor telepon menolak masukan huruf",
-      "start_route": "pendaftaran",
-      "start_path": "/pendaftaran",
-      "description": "Calon santri memasukkan huruf pada field nomor telepon. Field harus menolak atau menandai masukan tersebut.",
-      "expected": ["Penanda kesalahan pada field telepon terlihat, atau nilai huruf tidak diterima"]
-    },
-    {
-      "id": "REG06",
-      "category": "registration",
-      "title": "Daftar pilihan jenjang pendidikan tersedia dan dapat dipilih",
-      "start_route": "pendaftaran",
-      "start_path": "/pendaftaran",
-      "description": "Calon santri membuka daftar pilihan jenjang pada formulir dan memilih salah satu opsi.",
-      "expected": ["Daftar pilihan memiliki lebih dari satu opsi", "Opsi yang dipilih tercatat pada field"]
+      "id": "INF02",
+      "category": "information",
+      "title": "Membaca FAQ SIMASIS tanpa perlu mengeklik akordeon",
+      "start_route": "faq-simasis",
+      "start_path": "/portal/halaman/faq-simasis",
+      "description": "Halaman FAQ SIMASIS BUKAN akordeon; seluruh 20 pertanyaan dan jawabannya sudah tampil di DOM saat halaman termuat.",
+      "expected": ["Pertanyaan '1. Apa itu SIMASIS?' terlihat", "Jawabannya langsung terlihat tanpa interaksi apa pun"]
     },
     {
       "id": "RES01",
       "category": "resilience",
-      "title": "Formulir menahan masukan yang sangat panjang",
-      "start_route": "pendaftaran",
-      "start_path": "/pendaftaran",
-      "description": "Calon santri memasukkan teks sangat panjang pada field nama. Halaman harus tetap responsif dan tidak rusak tata letaknya.",
-      "expected": ["Halaman tetap dapat diinteraksikan", "Field tetap terlihat"]
+      "title": "Kolom pencarian berita menahan masukan yang sangat panjang",
+      "start_route": "portal-berita",
+      "start_path": "/portal/berita",
+      "description": "Pengunjung memasukkan teks sangat panjang (200+ karakter) pada kolom pencarian berita lalu menekan Enter. Halaman harus tetap responsif dan tidak rusak tata letaknya.",
+      "expected": ["Halaman tetap dapat diinteraksikan setelah pencarian", "Tidak terjadi galat JavaScript yang menghentikan halaman"]
+    },
+    {
+      "id": "RES02",
+      "category": "resilience",
+      "title": "Login berulang dengan kredensial salah tidak merusak halaman",
+      "start_route": "login",
+      "start_path": "/login",
+      "description": "Pengunjung mencoba login dengan kredensial salah sebanyak tiga kali berturut-turut. Formulir harus tetap dapat diisi ulang dan pesan kesalahan tetap konsisten, tanpa halaman menjadi rusak atau tidak responsif.",
+      "expected": ["Formulir tetap dapat diisi setelah beberapa kali percobaan gagal", "Pesan kesalahan tetap konsisten"]
     }
   ]
 }

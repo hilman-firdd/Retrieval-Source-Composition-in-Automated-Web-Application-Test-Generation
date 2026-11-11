@@ -1,0 +1,12 @@
+const { test, expect } = require('@playwright/test');
+
+test.describe('NWS04: Menggunakan navigasi halaman pada daftar berita', () => {
+  test('Menggunakan navigasi halaman pada daftar berita', async ({ page }) => {
+    await page.goto('https://staging.pesantrenpersis27.com/berita');
+    await expect(page.locator('text="Berita"')).toBeVisible();
+    await page.locator('text="Berita"').click();
+    await expect(page.locator('text="Berita"')).toBeVisible();
+    await expect(page.locator('text="Berita"')).not.toBeVisible();
+    await expect(page.locator('text="Berita"')).toBeVisible();
+  });
+});

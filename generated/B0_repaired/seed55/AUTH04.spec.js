@@ -1,0 +1,11 @@
+const { test, expect } = require('@playwright/test');
+
+test.describe('AUTH04: Kembali ke beranda dari halaman login', () => {
+  test('Kembali ke beranda dari halaman login', async ({ page }) => {
+    await page.goto('https://staging.pesantrenpersis27.com/login');
+    await expect(page.locator('button[testid="back-to-landing-page"]')).toBeVisible();
+    await page.locator('button[testid="back-to-landing-page"]').click();
+    await expect(page).toHaveURL('https://staging.pesantrenpersis27.com');
+    await expect(page.locator('h1')).toBeVisible();
+  });
+});

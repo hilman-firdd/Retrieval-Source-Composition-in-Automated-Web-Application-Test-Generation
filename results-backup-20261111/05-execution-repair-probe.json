@@ -1,0 +1,3823 @@
+{
+  "ranAt": "2026-09-11T09:00:07.183Z",
+  "baseUrl": "https://staging.pesantrenpersis27.com",
+  "repeat": 1,
+  "perturbationFile": null,
+  "rows": [
+    {
+      "condition": "P_repaired",
+      "run": "greedy0",
+      "scenario_id": "ARTC03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3605,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Jihad Adalah Amalan Paling Utama—Basharidlo Thoriq Bintoro')\nExpected: visible\nError: strict mode violation: getByText('Jihad Adalah Amalan Paling Utama—Basharidlo Thoriq Bintoro') resolved to 2 elements:\n    1) <a href=\"https://staging.pesantrenpersis27.com/portal/jihad-adalah-amalan-paling-utama-basharidlo-thoriq-bintoro\">Jihad Adalah Amalan Paling Utama—Basharidlo Thori…</a> aka getByRole('link', { name: 'Jihad Adalah Amalan Paling' })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "greedy0",
+      "scenario_id": "ARTC04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9735,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Tidak ada berita ditemukan')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "greedy0",
+      "scenario_id": "AUTH02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10446,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#username').locator('input')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "greedy0",
+      "scenario_id": "AUTH04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3810,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Berita Terbaru')\nExpected: visible\nError: strict mode violation: getByText('Berita Terbaru') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByRole('link', { name: 'BERITA TERBARU', exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "greedy0",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2570,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('BROSUR PESANTREN UMUM')\nExpected: visible\nError: strict mode violation: getByText('BROSUR PESANTREN UMUM') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/halaman/brosur-pesantren-umum\">↵                                        BROSUR P…</a> aka locator('#portalNav').getByText('BROSUR PESANTREN UMUM')"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "greedy0",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3128,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'Lihat Semua' })\nExpected: visible\nError: strict mode violation: getByRole('link', { name: 'Lihat Semua' }) resolved to 2 elements:\n    1) <a class=\"btn btn-portal-outline d-none d-md-inline-flex\" href=\"https://staging.pesantrenpersis27.com/portal/berita\">…</a> aka getByRole('link', { name: 'Lihat Semua ' }).first()"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "greedy0",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2683,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Berita Terbaru')\nExpected: visible\nError: strict mode violation: getByText('Berita Terbaru') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "greedy0",
+      "scenario_id": "NEWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2617,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Berita Terbaru')\nExpected: visible\nError: strict mode violation: getByText('Berita Terbaru') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "greedy0",
+      "scenario_id": "NEWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9362,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'PPI 27 Situaksan Bandung Lepas Santri PDKS 2026; Dari Situaksan Menebar Kebaikan Menuju Getasan dan Blancir, Kabupaten Semarang' })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "greedy0",
+      "scenario_id": "NEWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2381,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'PELEPASAN SANTRI PDKS Tahun 2026' })\nExpected: visible\nError: strict mode violation: getByRole('link', { name: 'PELEPASAN SANTRI PDKS Tahun 2026' }) resolved to 2 elements:\n    1) <a href=\"https://staging.pesantrenpersis27.com/portal/pelepasan-santri-pdks-tahun-2026\">PELEPASAN SANTRI PDKS Tahun 2026</a> aka getByRole('link', { name: 'PELEPASAN SANTRI PDKS Tahun 2026', exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "greedy0",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 4750,
+      "first_errors": []
+    },
+    {
+      "condition": "P_repaired",
+      "run": "greedy0",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 2301,
+      "first_errors": []
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed11",
+      "scenario_id": "ARTC03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2363,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Jihad Adalah Amalan Paling Utama—Basharidlo Thoriq Bintoro')\nExpected: visible\nError: strict mode violation: getByText('Jihad Adalah Amalan Paling Utama—Basharidlo Thoriq Bintoro') resolved to 2 elements:\n    1) <a href=\"https://staging.pesantrenpersis27.com/portal/jihad-adalah-amalan-paling-utama-basharidlo-thoriq-bintoro\">Jihad Adalah Amalan Paling Utama—Basharidlo Thori…</a> aka getByRole('link', { name: 'Jihad Adalah Amalan Paling' })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed11",
+      "scenario_id": "ARTC04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8754,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Tidak ada berita ditemukan')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed11",
+      "scenario_id": "AUTH02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3227,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Please fill out this field.\"\u001b[39m\nReceived: \u001b[31mPromise {}\u001b[39m\n\n   7 |"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed11",
+      "scenario_id": "AUTH04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9771,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"https://staging.pesantrenpersis27.com/\"\u001b[39m\nReceived: \u001b[31m\"https://staging.pesantrenpersis27.com/\u001b[7mlogin\u001b[27m\"\u001b[39m\nTimeout:  7000ms\n"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed11",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1491,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('BROSUR PESANTREN UMUM')\nExpected: visible\nError: strict mode violation: getByText('BROSUR PESANTREN UMUM') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/halaman/brosur-pesantren-umum\">↵                                        BROSUR P…</a> aka locator('#portalNav').getByText('BROSUR PESANTREN UMUM')"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed11",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2262,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'Lihat Semua' })\nExpected: visible\nError: strict mode violation: getByRole('link', { name: 'Lihat Semua' }) resolved to 2 elements:\n    1) <a class=\"btn btn-portal-outline d-none d-md-inline-flex\" href=\"https://staging.pesantrenpersis27.com/portal/berita\">…</a> aka getByRole('link', { name: 'Lihat Semua ' }).first()"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed11",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1464,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Berita Terbaru')\nExpected: visible\nError: strict mode violation: getByText('Berita Terbaru') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed11",
+      "scenario_id": "NEWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1501,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Berita Terbaru')\nExpected: visible\nError: strict mode violation: getByText('Berita Terbaru') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed11",
+      "scenario_id": "NEWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 300,
+      "first_errors": []
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed11",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 4308,
+      "first_errors": []
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed11",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 2067,
+      "first_errors": []
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed22",
+      "scenario_id": "ARTC03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3846,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Jihad Adalah Amalan Paling Utama—Basharidlo Thoriq Bintoro')\nExpected: visible\nError: strict mode violation: getByText('Jihad Adalah Amalan Paling Utama—Basharidlo Thoriq Bintoro') resolved to 2 elements:\n    1) <a href=\"https://staging.pesantrenpersis27.com/portal/jihad-adalah-amalan-paling-utama-basharidlo-thoriq-bintoro\">Jihad Adalah Amalan Paling Utama—Basharidlo Thori…</a> aka getByRole('link', { name: 'Jihad Adalah Amalan Paling' })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed22",
+      "scenario_id": "ARTC04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9202,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Tidak ada berita ditemukan')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed22",
+      "scenario_id": "AUTH02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9895,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#username').getByPlaceholder('Masukkan email atau username')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed22",
+      "scenario_id": "AUTH04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 12704,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"https://staging.pesantrenpersis27.com/\u001b[7mportal\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://staging.pesantrenpersis27.com/\u001b[7mlogin\u001b[27m\"\u001b[39m\nTimeout:  7000ms\n"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed22",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2116,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('BROSUR PESANTREN UMUM')\nExpected: visible\nError: strict mode violation: getByText('BROSUR PESANTREN UMUM') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/halaman/brosur-pesantren-umum\">↵                                        BROSUR P…</a> aka locator('#portalNav').getByText('BROSUR PESANTREN UMUM')"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed22",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 16487,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a[href=\"/portal\"]').first()\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed22",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2204,
+      "first_errors": [
+        "Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://staging.pesantrenpersis27.com/\nCall log:\n\u001b[2m  - navigating to \"https://staging.pesantrenpersis27.com/\", waiting until \"load\"\u001b[22m\n\n\n  3 | test.describe('Berpindah dari beranda ke daftar artikel santri', () => {"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed22",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2516,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Berita Terbaru')\nExpected: visible\nError: strict mode violation: getByText('Berita Terbaru') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed22",
+      "scenario_id": "NEWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2961,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Berita Terbaru')\nExpected: visible\nError: strict mode violation: getByText('Berita Terbaru') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed22",
+      "scenario_id": "NEWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9273,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'PPI 27 Situaksan Bandung Lepas Santri PDKS 2026; Dari Situaksan Menebar Kebaikan Menuju Getasan dan Blancir, Kabupaten Semarang' })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed22",
+      "scenario_id": "NEWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 373,
+      "first_errors": []
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed22",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 3962,
+      "first_errors": []
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed22",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 2784,
+      "first_errors": []
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed33",
+      "scenario_id": "ARTC03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3109,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Jihad Adalah Amalan Paling Utama—Basharidlo Thoriq Bintoro')\nExpected: visible\nError: strict mode violation: getByText('Jihad Adalah Amalan Paling Utama—Basharidlo Thoriq Bintoro') resolved to 2 elements:\n    1) <a href=\"https://staging.pesantrenpersis27.com/portal/jihad-adalah-amalan-paling-utama-basharidlo-thoriq-bintoro\">Jihad Adalah Amalan Paling Utama—Basharidlo Thori…</a> aka getByRole('link', { name: 'Jihad Adalah Amalan Paling' })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed33",
+      "scenario_id": "AUTH02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10675,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#username').locator('input')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed33",
+      "scenario_id": "AUTH04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10580,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'Beranda' })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed33",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2597,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('BROSUR PESANTREN UMUM')\nExpected: visible\nError: strict mode violation: getByText('BROSUR PESANTREN UMUM') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/halaman/brosur-pesantren-umum\">↵                                        BROSUR P…</a> aka locator('#portalNav').getByText('BROSUR PESANTREN UMUM')"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed33",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 16783,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"Beranda\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed33",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3094,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'Lihat Semua' })\nExpected: visible\nError: strict mode violation: getByRole('link', { name: 'Lihat Semua' }) resolved to 2 elements:\n    1) <a class=\"btn btn-portal-outline d-none d-md-inline-flex\" href=\"https://staging.pesantrenpersis27.com/portal/berita\">…</a> aka getByRole('link', { name: 'Lihat Semua ' }).first()"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed33",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2564,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('PPI 27 Situaksan Bandung Lepas Santri PDKS 2026; Dari Situaksan Menebar Kebaikan Menuju Getasan dan Blancir, Kabupaten S')\nExpected: visible\nError: strict mode violation: getByText('PPI 27 Situaksan Bandung Lepas Santri PDKS 2026; Dari Situaksan Menebar Kebaikan Menuju Getasan dan Blancir, Kabupaten S') resolved to 2 elements:\n    1) <a href=\"https://staging.pesantrenpersis27.com/portal/ppi-27-situaksan-bandung-lepas-santri-pdks-2026-dari-situaksan-menebar-kebaikan-menuju-getasan-dan-blancir-kabupaten-semarang\">PPI 27 Situaksan Bandung Lepas Santri PDKS 2026; …</a> aka getByRole('link', { name: 'PPI 27 Situaksan Bandung Lepas Santri PDKS 2026; Dari Situaksan Menebar Kebaikan Menuju Getasan dan Blancir, Kabupaten Semarang', exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed33",
+      "scenario_id": "NAV06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3132,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('FAQ SIMASIS')\nExpected: visible\nError: strict mode violation: getByText('FAQ SIMASIS') resolved to 3 elements:\n    1) <li class=\"breadcrumb-item active\">FAQ SIMASIS</li> aka getByRole('navigation', { name: 'breadcrumb' }).getByText('FAQ SIMASIS')"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed33",
+      "scenario_id": "NEWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1854,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Berita Terbaru')\nExpected: visible\nError: strict mode violation: getByText('Berita Terbaru') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed33",
+      "scenario_id": "NEWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10099,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'PPI 27 Situaksan Bandung Lepas Santri PDKS 2026; Dari Situaksan Menebar Kebaikan Menuju Getasan dan Blancir, Kabupaten Semarang' })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed33",
+      "scenario_id": "NEWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2438,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'PELEPASAN SANTRI PDKS Tahun 2026' })\nExpected: visible\nError: strict mode violation: getByRole('link', { name: 'PELEPASAN SANTRI PDKS Tahun 2026' }) resolved to 2 elements:\n    1) <a href=\"https://staging.pesantrenpersis27.com/portal/pelepasan-santri-pdks-tahun-2026\">PELEPASAN SANTRI PDKS Tahun 2026</a> aka getByRole('link', { name: 'PELEPASAN SANTRI PDKS Tahun 2026', exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed33",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 4406,
+      "first_errors": []
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed33",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2254,
+      "first_errors": [
+        "Error: toBeVisible can be only used with Locator object, was called with () => page.getByText('Tidak ada berita ditemukan')\n\n   8 |\n   9 |     await expect(page).toHaveURL(/search=/);\n> 10 |     await expect(() => page.getByText('Tidak ada berita ditemukan')).toBeVisible();\n     |                                                                      ^"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed44",
+      "scenario_id": "ARTC03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1907,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Jihad Adalah Amalan Paling Utama—Basharidlo Thoriq Bintoro')\nExpected: visible\nError: strict mode violation: getByText('Jihad Adalah Amalan Paling Utama—Basharidlo Thoriq Bintoro') resolved to 2 elements:\n    1) <a href=\"https://staging.pesantrenpersis27.com/portal/jihad-adalah-amalan-paling-utama-basharidlo-thoriq-bintoro\">Jihad Adalah Amalan Paling Utama—Basharidlo Thori…</a> aka getByRole('link', { name: 'Jihad Adalah Amalan Paling' })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed44",
+      "scenario_id": "ARTC04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9101,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Tidak ada berita ditemukan')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed44",
+      "scenario_id": "AUTH02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9786,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#username').getByPlaceholder('Masukkan email atau username')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed44",
+      "scenario_id": "AUTH04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9873,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'Beranda' })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed44",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1909,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('BROSUR PESANTREN UMUM')\nExpected: visible\nError: strict mode violation: getByText('BROSUR PESANTREN UMUM') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/halaman/brosur-pesantren-umum\">↵                                        BROSUR P…</a> aka locator('#portalNav').getByText('BROSUR PESANTREN UMUM')"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed44",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 5663,
+      "first_errors": []
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed44",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9644,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'Lihat Semua' })\nExpected: visible\nError: strict mode violation: getByRole('link', { name: 'Lihat Semua' }) resolved to 2 elements:\n    1) <a class=\"btn btn-portal-outline d-none d-md-inline-flex\" href=\"https://staging.pesantrenpersis27.com/portal/berita\">…</a> aka getByRole('link', { name: 'Lihat Semua ' }).first()"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed44",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2600,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Berita Terbaru')\nExpected: visible\nError: strict mode violation: getByText('Berita Terbaru') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed44",
+      "scenario_id": "NEWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3521,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Berita Terbaru')\nExpected: visible\nError: strict mode violation: getByText('Berita Terbaru') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed44",
+      "scenario_id": "NEWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10413,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'PPI 27 Situaksan Bandung Lepas Santri PDKS 2026; Dari Situaksan Menebar Kebaikan Menuju Getasan dan Blancir, Kabupaten Semarang' })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed44",
+      "scenario_id": "NEWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2526,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'PELEPASAN SANTRI PDKS Tahun 2026' })\nExpected: visible\nError: strict mode violation: getByRole('link', { name: 'PELEPASAN SANTRI PDKS Tahun 2026' }) resolved to 2 elements:\n    1) <a href=\"https://staging.pesantrenpersis27.com/portal/pelepasan-santri-pdks-tahun-2026\">PELEPASAN SANTRI PDKS Tahun 2026</a> aka getByRole('link', { name: 'PELEPASAN SANTRI PDKS Tahun 2026', exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed44",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 3994,
+      "first_errors": []
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed44",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 2548,
+      "first_errors": []
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed55",
+      "scenario_id": "ARTC03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2636,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Jihad Adalah Amalan Paling Utama—Basharidlo Thoriq Bintoro')\nExpected: visible\nError: strict mode violation: getByText('Jihad Adalah Amalan Paling Utama—Basharidlo Thoriq Bintoro') resolved to 2 elements:\n    1) <a href=\"https://staging.pesantrenpersis27.com/portal/jihad-adalah-amalan-paling-utama-basharidlo-thoriq-bintoro\">Jihad Adalah Amalan Paling Utama—Basharidlo Thori…</a> aka getByRole('link', { name: 'Jihad Adalah Amalan Paling' })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed55",
+      "scenario_id": "AUTH02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9624,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#username').getByPlaceholder('Masukkan email atau username')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed55",
+      "scenario_id": "AUTH04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 2875,
+      "first_errors": []
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed55",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1877,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('BROSUR PESANTREN UMUM')\nExpected: visible\nError: strict mode violation: getByText('BROSUR PESANTREN UMUM') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/halaman/brosur-pesantren-umum\">↵                                        BROSUR P…</a> aka locator('#portalNav').getByText('BROSUR PESANTREN UMUM')"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed55",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8689,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'Lihat Semua' })\nExpected: visible\nError: strict mode violation: getByRole('link', { name: 'Lihat Semua' }) resolved to 2 elements:\n    1) <a class=\"btn btn-portal-outline d-none d-md-inline-flex\" href=\"https://staging.pesantrenpersis27.com/portal/berita\">…</a> aka getByRole('link', { name: 'Lihat Semua ' }).first()"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed55",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2018,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Berita Terbaru')\nExpected: visible\nError: strict mode violation: getByText('Berita Terbaru') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed55",
+      "scenario_id": "NEWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2159,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Berita Terbaru')\nExpected: visible\nError: strict mode violation: getByText('Berita Terbaru') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed55",
+      "scenario_id": "NEWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 369,
+      "first_errors": []
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed55",
+      "scenario_id": "NEWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9329,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'PPI 27 Situaksan Bandung Lepas Santri PDKS 2026; Dari Situaksan Menebar Kebaikan Menuju Getasan dan Blancir, Kabupaten Semarang' })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed55",
+      "scenario_id": "NEWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2209,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('link', { name: 'PELEPASAN SANTRI PDKS Tahun 2026' })\nExpected: visible\nError: strict mode violation: getByRole('link', { name: 'PELEPASAN SANTRI PDKS Tahun 2026' }) resolved to 2 elements:\n    1) <a href=\"https://staging.pesantrenpersis27.com/portal/pelepasan-santri-pdks-tahun-2026\">PELEPASAN SANTRI PDKS Tahun 2026</a> aka getByRole('link', { name: 'PELEPASAN SANTRI PDKS Tahun 2026', exact: true })"
+      ]
+    },
+    {
+      "condition": "P_repaired",
+      "run": "seed55",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 2838,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "ARTC01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2192,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h3')\nExpected: \u001b[32m\"Artikel Tulisan Santri\"\u001b[39m\nError: strict mode violation: locator('h3') resolved to 9 elements:\n    1) <h3 class=\"card-title\">…</h3> aka getByRole('heading', { name: 'Menata Amal Shalih dalam' })"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "ARTC02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8884,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('article')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "ARTC03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9100,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div[data-test-id=\"article-list\"]').first()\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "ARTC04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2043,
+      "first_errors": [
+        "TypeError: expect(...).click is not a function\n\n   6 |     await expect(page.locator('input[placeholder=\"Cari artikel...\"]')).toBeVisible();\n   7 |     await page.fill('input[placeholder=\"Cari artikel...\"]', 'random keyword');\n>  8 |     await expect(page.locator('button[type=\"submit\"]').first()).click();\n     |                                                                 ^"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "AUTH01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 2317,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "AUTH02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8463,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test-id=\"username\"]').locator('input')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "AUTH04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9114,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('button[testid=\"back-to-landing-page\"]')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8925,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#portalNav').getByText('BROSUR PESANTREN UMUM')\nExpected: visible\nReceived: hidden\nTimeout:  7000ms"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2408,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: text=\"1. Apa itu SIMASIS?\" >> following-sibling::text\nExpected: visible\nError: Unexpected token \":\" while parsing css selector \"following-sibling::text\". Did you mean to CSS.escape it?\n"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9522,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('span[role=\"link\"][data-test-id=\"pesantren-title\"]')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3140,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('role=\"link\"')\nExpected: visible\nError: InvalidSelectorError: Error while parsing selector `\"link\"` - unexpected symbol \"\"\" at position 0\n    at syntaxError (<anonymous>:2048:11)"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3088,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"Lihat Semua\"')\nExpected: visible\nError: strict mode violation: locator('text=\"Lihat Semua\"') resolved to 2 elements:\n    1) <a class=\"btn btn-portal-outline d-none d-md-inline-flex\" href=\"https://staging.pesantrenpersis27.com/portal/berita\">…</a> aka getByRole('link', { name: 'Lihat Semua ' }).first()"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10090,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('portalNavbar')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 2465,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8477,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"404 NOT FOUND\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "NEWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10286,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h3:has-text(\"Berita Terbaru\")')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found",
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('ul.navbar-nav.ms-auto.me-3').locator('li')\nExpected: visible\nError: strict mode violation: locator('ul.navbar-nav.ms-auto.me-3').locator('li') resolved to 61 elements:\n    1) <li class=\"nav-item dropdown\">…</li> aka getByText('IFTITAH IFTITAH NIZHAM')"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "NEWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2046,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"https://staging.pesantrenpersis27.com/portal/\u001b[7m<slug-\u001b[27mberita\u001b[7m>\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://staging.pesantrenpersis27.com/portal/berita\"\u001b[39m\n\n   5 |     await page.goto('https://staging.pesantrenpersis27.com/portal/berita');"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "NEWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "runtime_error"
+      ],
+      "final_outcome": "runtime_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 11954,
+      "first_errors": [
+        "TimeoutError: locator.textContent: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('ul.news-list').first().locator('h2')\u001b[22m\n\n\n   5 |     await page.goto('https://staging.pesantrenpersis27.com/portal/berita');"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "NEWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2243,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Berita')\nExpected: visible\nError: strict mode violation: locator('text=Berita') resolved to 17 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "NEWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9003,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"Pencarian berita... santri\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "NEWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 12147,
+      "first_errors": [
+        "TimeoutError: page.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n\n\n  4 |   test('Search result with no results', async ({ page }) => {"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 11973,
+      "first_errors": [
+        "TimeoutError: page.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"search\"]')\u001b[22m\n\n\n  4 |   test('should not break the layout', async ({ page }) => {"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "greedy0",
+      "scenario_id": "RES02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3799,
+      "first_errors": [
+        "TypeError: page.locator(...).toBeVisible is not a function\n\n   7 |     await page.fill('input[name=\"password\"]', 'wrong-password');\n   8 |     await page.click('button[type=\"submit\"]');\n>  9 |     await expect(page.locator('input[name=\"username\"]').toBeVisible());\n     |                                                         ^"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "ARTC01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9158,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h3[data-test-id=\"artikel-tulisan-santri\"]').first()\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "ARTC02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9457,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div[test-id=\"article-list\"] a[test-id=\"article-list-item-0\"]')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "ARTC03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8771,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div[data-test-id=\"article-list\"]').first()\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "ARTC04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1845,
+      "first_errors": [
+        "TypeError: page.locator(...).get is not a function\n\n   6 |     await expect(page.locator('input[placeholder=\"Cari artikel...\"]')).toBeVisible();\n   7 |     await page.fill('input[placeholder=\"Cari artikel...\"]', 'random keyword');\n>  8 |     await expect(page.locator('button[type=\"submit\"]').get()).toBeVisible();\n     |                                                        ^"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "AUTH01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 1293,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "AUTH02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10917,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test-id=\"username\"]').locator('input')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "AUTH04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8280,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('button[testid=\"back-to-landing-page\"]')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1464,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=BROSUR PESANTREN UMUM')\nExpected: visible\nError: strict mode violation: locator('text=BROSUR PESANTREN UMUM') resolved to 3 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/halaman/brosur-pesantren-umum\">↵                                        BROSUR P…</a> aka locator('#portalNav').getByText('BROSUR PESANTREN UMUM')"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1374,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: text=\"1. Apa itu SIMASIS?\" >> following-sibling::text()\nExpected: visible\nError: Unexpected token \":\" while parsing css selector \"following-sibling::text()\". Did you mean to CSS.escape it?\n"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9340,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h1:has-text(\"Pesantren\")')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2657,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('role=\"link\"')\nExpected: visible\nError: InvalidSelectorError: Error while parsing selector `\"link\"` - unexpected symbol \"\"\" at position 0\n    at syntaxError (<anonymous>:2048:11)"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2424,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"Lihat Semua\"')\nExpected: visible\nError: strict mode violation: locator('text=\"Lihat Semua\"') resolved to 2 elements:\n    1) <a class=\"btn btn-portal-outline d-none d-md-inline-flex\" href=\"https://staging.pesantrenpersis27.com/portal/berita\">…</a> aka getByRole('link', { name: 'Lihat Semua ' }).first()"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9933,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#portalNavbar')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 5563,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "NAV06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3410,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"https://staging.pesantrenpersis27.com/faq-simasis\"\u001b[39m\nReceived: \u001b[31m\"https://staging.pesantrenpersis27.com/\u001b[7mportal/halaman/\u001b[27mfaq-simasis\"\u001b[39m\n\n   7 |     await page.locator('footer a:has-text(\"FAQ SIMASIS\")').click();"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8280,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"404 NOT FOUND\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "NEWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10398,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h3:has-text(\"Berita Terbaru\")')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found",
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('ul.navbar-nav.ms-auto.me-3').locator('li')\nExpected: visible\nError: strict mode violation: locator('ul.navbar-nav.ms-auto.me-3').locator('li') resolved to 61 elements:\n    1) <li class=\"nav-item dropdown\">…</li> aka getByText('IFTITAH IFTITAH NIZHAM')"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "NEWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1999,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"https://staging.pesantrenpersis27.com/portal/\u001b[7mB\u001b[27merita\u001b[7m Terbaru\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://staging.pesantrenpersis27.com/portal/\u001b[7mb\u001b[27merita\"\u001b[39m\n\n   6 |     await expect(page.locator('h1')).toBeVisible();"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "NEWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 12963,
+      "first_errors": [
+        "TimeoutError: locator.textContent: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('ul.news-list').locator('li').first().locator('h2')\u001b[22m\n\n\n   5 |     await page.goto('https://staging.pesantrenpersis27.com/portal/berita');"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "NEWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2653,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"Berita Terbaru\"\u001b[39m\n\n  11 |     await page.goto('https://staging.pesantrenpersis27.com/portal/berita?page=2');\n  12 |     await expect(page.locator('h1')).toBeVisible();"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "NEWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8824,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'Pencarian berita' })\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "NEWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 11622,
+      "first_errors": [
+        "TimeoutError: page.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n\n\n  4 |   test('Search result with no results', async ({ page }) => {"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 12165,
+      "first_errors": [
+        "TimeoutError: page.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"search\"]')\u001b[22m\n\n\n  4 |   test('should not break the layout', async ({ page }) => {"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed11",
+      "scenario_id": "RES02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 6662,
+      "first_errors": [
+        "Error: locator.isVisible: Test ended.\nCall log:\n\u001b[2m    - checking visibility of locator('input[name=\"username\"]')\u001b[22m\n\n\n  17 |     await page.fill('input[name=\"password\"]', 'wrong-password');"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "ARTC01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2694,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h3')\nExpected: \u001b[32m\"Artikel Tulisan Santri\"\u001b[39m\nError: strict mode violation: locator('h3') resolved to 9 elements:\n    1) <h3 class=\"card-title\">…</h3> aka getByRole('heading', { name: 'Menata Amal Shalih dalam' })"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "ARTC02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9098,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"Judul Artikel Pertama\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "ARTC03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9150,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div[data-test-id=\"article-list\"]').first()\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "ARTC04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 12007,
+      "first_errors": [
+        "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button[type=\"submit\"]')\u001b[22m\n\n\n   6 |     await expect(page.locator('input[placeholder=\"Cari artikel...\"]')).toBeVisible();"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "AUTH01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8705,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input[type=\"text\"]').getByTestId('username')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "AUTH02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8367,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input[name=\"username\"]').getByPlaceholder('Username')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "AUTH04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9087,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('button[testid=\"back-to-landing-page\"]')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9064,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#portalNav').getByText('BROSUR PESANTREN UMUM')\nExpected: visible\nReceived: hidden\nTimeout:  7000ms"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2067,
+      "first_errors": [
+        "TypeError: page.locator(...).nextSibling is not a function\n\n   6 |     const question = page.locator('text=\"1. Apa itu SIMASIS?\"');\n   7 |     await expect(question).toBeVisible();\n>  8 |     const answerLocator = page.locator('text=\"1. Apa itu SIMASIS?\"').nextSibling();\n     |                                                                      ^"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3080,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Pesantren')\nExpected: visible\nError: strict mode violation: locator('text=Pesantren') resolved to 30 elements:\n    1) <span class=\"nav-menu-title\">…</span> aka getByRole('link', { name: ' PESANTREN UMUM ' })"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 2990,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3682,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"Lihat Semua\"')\nExpected: visible\nError: strict mode violation: locator('text=\"Lihat Semua\"') resolved to 2 elements:\n    1) <a class=\"btn btn-portal-outline d-none d-md-inline-flex\" href=\"https://staging.pesantrenpersis27.com/portal/berita\">…</a> aka getByRole('link', { name: 'Lihat Semua ' }).first()"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9296,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('portalNavbar')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9443,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"Konten Beranda\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "NAV06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3620,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"https://staging.pesantrenpersis27.com/faq-simasis\"\u001b[39m\nReceived: \u001b[31m\"https://staging.pesantrenpersis27.com/\u001b[7mportal/halaman/\u001b[27mfaq-simasis\"\u001b[39m\n\n   7 |     await page.locator('footer a:has-text(\"FAQ SIMASIS\")').click();"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8573,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"404 NOT FOUND\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "NEWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9504,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h3:has-text(\"Berita Terbaru\")')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "NEWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 11955,
+      "first_errors": [
+        "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('ul.news-list').locator('li').locator('h2.news-title')\u001b[22m\n\n\n   6 |     const newsList = await page.locator('ul.news-list');"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "NEWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2556,
+      "first_errors": [
+        "TypeError: Cannot read properties of undefined (reading 'unicode')\n\n   5 |     await page.goto('https://staging.pesantrenpersis27.com/portal/berita');\n   6 |     const newsList = await page.locator('ul:has-text(\"Berita\")').first();\n>  7 |     const newsTitle = await newsList.locator('a').getByText().first();\n     |                                                   ^"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "NEWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1829,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Berita')\nExpected: visible\nError: strict mode violation: locator('text=Berita') resolved to 17 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "NEWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9271,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('input[placeholder=\"Cari berita...\"]')\nExpected: not visible\nReceived: visible\nTimeout:  7000ms"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "NEWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 11885,
+      "first_errors": [
+        "TimeoutError: page.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"keyword\"]')\u001b[22m\n\n\n  4 |   test('should display \"(0 hasil)\" and \"Tidak ada berita ditemukan\" message', async ({ page }) => {"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2795,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: a[target=\"_self\"]::text(\"PENDAFTARAN PESANTREN KHUSUS\"\nExpected: visible\nError: Unexpected token \":\" while parsing css selector \"a[target=\"_self\"]::text(\"PENDAFTARAN PESANTREN KHUSUS\"\". Did you mean to CSS.escape it?\n"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed22",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8566,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input[data-test-id=\"search-input\"]')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "ARTC01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1662,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h3')\nExpected: \u001b[32m\"Artikel Tulisan Santri\"\u001b[39m\nError: strict mode violation: locator('h3') resolved to 9 elements:\n    1) <h3 class=\"card-title\">…</h3> aka getByRole('heading', { name: 'Menata Amal Shalih dalam' })"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "ARTC02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8797,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('article')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "ARTC03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9277,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div[data-test-id=\"article-list\"]').first()\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "ARTC04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9404,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('button[type=\"submit\"]')\nExpected: enabled\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "AUTH01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 1980,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "AUTH02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8823,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input[name=\"username\"]').getByPlaceholder('Username')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "AUTH04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8766,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('button[testid=\"back-to-landing-page\"]')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1930,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a[target=\"_self\"]')\nExpected: \u001b[32m\"BROSUR PESANTREN UMUM\"\u001b[39m\nError: strict mode violation: locator('a[target=\"_self\"]') resolved to 54 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/halaman/iftitah\">↵                                        IFTITAH↵…</a> aka getByText('IFTITAH').nth(1)"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1928,
+      "first_errors": [
+        "TypeError: page.locator(...).nextSibling is not a function\n\n   6 |     const question = page.locator('text=\"1. Apa itu SIMASIS?\"');\n   7 |     await expect(question).toBeVisible();\n>  8 |     const answerLocator = page.locator('text=\"1. Apa itu SIMASIS?\"').nextSibling();\n     |                                                                      ^"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9670,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h1:has-text(\"Pesantren\")')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 2727,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2751,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"Lihat Semua\"')\nExpected: visible\nError: strict mode violation: locator('text=\"Lihat Semua\"') resolved to 2 elements:\n    1) <a class=\"btn btn-portal-outline d-none d-md-inline-flex\" href=\"https://staging.pesantrenpersis27.com/portal/berita\">…</a> aka getByRole('link', { name: 'Lihat Semua ' }).first()"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9299,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('portalNavbar')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9272,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"Konten Beranda\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "NAV06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2917,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"https://staging.pesantrenpersis27.com/faq-simasis\"\u001b[39m\nReceived: \u001b[31m\"https://staging.pesantrenpersis27.com/\u001b[7mportal/halaman/\u001b[27mfaq-simasis\"\u001b[39m\n\n   7 |     await page.locator('footer a:has-text(\"FAQ SIMASIS\")').click();"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8692,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"404 NOT FOUND\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "NEWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9890,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h3:has-text(\"Berita Terbaru\")')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found",
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h3')\nExpected: visible\nError: strict mode violation: locator('h3') resolved to 9 elements:\n    1) <h3 class=\"card-title\">…</h3> aka getByRole('heading', { name: 'PPI 27 Situaksan Bandung' })"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "NEWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3860,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"https://staging.pesantrenpersis27.com/portal/\u001b[7m<slug-\u001b[27mberita\u001b[7m>\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://staging.pesantrenpersis27.com/portal/berita\"\u001b[39m\n\n   5 |     await page.goto('https://staging.pesantrenpersis27.com/portal/berita');"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "NEWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 11875,
+      "first_errors": [
+        "TimeoutError: locator.textContent: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('ul.news-list').locator('li').first().locator('h2')\u001b[22m\n\n\n   7 |     const newsItems = await newsList.locator('li');"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "NEWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1999,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Berita')\nExpected: visible\nError: strict mode violation: locator('text=Berita') resolved to 17 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "NEWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8876,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"santri\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "NEWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 11653,
+      "first_errors": [
+        "TimeoutError: page.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n\n\n  4 |   test('Search result with no results', async ({ page }) => {"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "REG01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3556,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"PENDAFTARAN PESANTREN KHUSUS\"')\nExpected: visible\nError: strict mode violation: locator('text=\"PENDAFTARAN PESANTREN KHUSUS\"') resolved to 4 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/halaman/pendaftaran-pesantren-khusus\">↵                                        PENDAFTA…</a> aka locator('#portalNav').getByText('PENDAFTARAN PESANTREN KHUSUS')"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 11360,
+      "first_errors": [
+        "TimeoutError: page.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n\n\n  4 |   test('should not break the layout', async ({ page }) => {"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed33",
+      "scenario_id": "RES02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 448,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "ARTC01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2817,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h3')\nExpected: \u001b[32m\"Artikel Tulisan Santri\"\u001b[39m\nError: strict mode violation: locator('h3') resolved to 9 elements:\n    1) <h3 class=\"card-title\">…</h3> aka getByRole('heading', { name: 'Menata Amal Shalih dalam' })"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "ARTC02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 12584,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('article')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "ARTC03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10865,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div[data-test-id=\"article-list\"]').first()\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "ARTC04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2413,
+      "first_errors": [
+        "TypeError: expect(...).dispatchEvent is not a function\n\n   6 |     await expect(page.locator('input[placeholder=\"Cari artikel...\"]')).toBeVisible();\n   7 |     await page.fill('input[placeholder=\"Cari artikel...\"]', 'random keyword');\n>  8 |     await expect(page.locator('input[placeholder=\"Cari artikel...\"]')).dispatchEvent('input');\n     |                                                                        ^"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "AUTH01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 2098,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "AUTH02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8809,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test-id=\"username\"]').locator('input')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "AUTH03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 3756,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "AUTH04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8418,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('button[testid=\"back-to-landing-page\"]')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9118,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('a[target=\"_self\"][class=\"dropdown-item\"][href=\"/portal/halaman/brosur-pesantren-umum\"]').getByText('BROSUR PESANTREN UMUM')\nExpected: visible\nReceived: hidden\nTimeout:  7000ms"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2074,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: text=\"1. Apa itu SIMASIS?\" >> following-sibling::text\nExpected: visible\nError: Unexpected token \":\" while parsing css selector \"following-sibling::text\". Did you mean to CSS.escape it?\n"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9783,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('span[role=\"link\"][data-test-id=\"pesantren-title\"]')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 4581,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('role=\"link\"')\nExpected: visible\nError: InvalidSelectorError: Error while parsing selector `\"link\"` - unexpected symbol \"\"\" at position 0\n    at syntaxError (<anonymous>:2048:11)"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3084,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"Lihat Semua\"')\nExpected: visible\nError: strict mode violation: locator('text=\"Lihat Semua\"') resolved to 2 elements:\n    1) <a class=\"btn btn-portal-outline d-none d-md-inline-flex\" href=\"https://staging.pesantrenpersis27.com/portal/berita\">…</a> aka getByRole('link', { name: 'Lihat Semua ' }).first()"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9809,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('portalNavbar')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9332,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"Konten Beranda\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8481,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"404 NOT FOUND\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "NEWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10349,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h3:has-text(\"Berita Terbaru\")')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "NEWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 356,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "NEWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "runtime_error"
+      ],
+      "final_outcome": "runtime_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 12362,
+      "first_errors": [
+        "TimeoutError: locator.textContent: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('ul.news-list').locator('li.news-item').first().locator('h2.news-title')\u001b[22m\n\n\n   6 |     const newsList = await page.locator('ul.news-list');"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "NEWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3111,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"Berita Terbaru\"\u001b[39m\n\n  11 |     await page.goto('https://staging.pesantrenpersis27.com/portal/berita?page=2');\n  12 |     await expect(page.locator('h1')).toBeVisible();"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "NEWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9327,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"santri\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "NEWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 12349,
+      "first_errors": [
+        "TimeoutError: page.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n\n\n  4 |   test('Search results not found', async ({ page }) => {"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed44",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 12093,
+      "first_errors": [
+        "TimeoutError: page.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"search\"]')\u001b[22m\n\n\n  4 |   test('should not break the layout', async ({ page }) => {"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "ARTC01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 1756,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h3')\nExpected: \u001b[32m\"Artikel Tulisan Santri\"\u001b[39m\nError: strict mode violation: locator('h3') resolved to 9 elements:\n    1) <h3 class=\"card-title\">…</h3> aka getByRole('heading', { name: 'Menata Amal Shalih dalam' })"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "ARTC02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "syntax_error"
+      ],
+      "final_outcome": "syntax_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 362,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "ARTC03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9080,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div[data-test-id=\"article-list\"]').first()\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "ARTC04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2101,
+      "first_errors": [
+        "TypeError: expect(...).click is not a function\n\n   6 |     await expect(page.locator('input[placeholder=\"Cari artikel...\"]')).toBeVisible();\n   7 |     await page.fill('input[placeholder=\"Cari artikel...\"]', 'random keyword');\n>  8 |     await expect(page.locator('button[type=\"submit\"]').first()).click();\n     |                                                                 ^"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "AUTH01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 1944,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "AUTH02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8745,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-test=\"username\"]').first().locator('input')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "AUTH04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 8837,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('button[testid=\"back-to-landing-page\"]')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "INF01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 11242,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#portalNav').getByText('BROSUR PESANTREN UMUM')\nExpected: visible\nReceived: hidden\nTimeout:  7000ms"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "INF02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9858,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"...\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "NAV01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10694,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('span[role=\"link\"][data-test-id=\"pesantren-title\"]')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "NAV02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10370,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a[role=\"link\"][data-test-id=\"Semua Berita\"]')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "NAV03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 4788,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"Lihat Semua\"')\nExpected: visible\nError: strict mode violation: locator('text=\"Lihat Semua\"') resolved to 2 elements:\n    1) <a class=\"btn btn-portal-outline d-none d-md-inline-flex\" href=\"https://staging.pesantrenpersis27.com/portal/berita\">…</a> aka getByRole('link', { name: 'Lihat Semua ' }).first()"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "NAV04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 13217,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('portalNavbar')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "NAV05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "passed"
+      ],
+      "final_outcome": "passed",
+      "flaky": false,
+      "passed_count": 1,
+      "mean_duration_ms": 3131,
+      "first_errors": []
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "NAV08",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9202,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=\"404 NOT FOUND\"')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "NEWS01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10377,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h3[data-test-id=\"Berita Terbaru\"]')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "NEWS02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 9824,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div[test-id=\"news-list\"] a[test-id=\"news-list-item-0\"]')\nExpected: visible\nTimeout: 7000ms\nError: element(s) not found"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "NEWS03",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "runtime_error"
+      ],
+      "final_outcome": "runtime_error",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 12921,
+      "first_errors": [
+        "TimeoutError: locator.textContent: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('ul.news-list').locator('li').first().locator('h2')\u001b[22m\n\n\n   5 |     await page.goto('https://staging.pesantrenpersis27.com/portal/berita');"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "NEWS04",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 2723,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Berita')\nExpected: visible\nError: strict mode violation: locator('text=Berita') resolved to 17 elements:\n    1) <a target=\"_self\" class=\"dropdown-item\" href=\"/portal/berita\">↵                                        BERITA T…</a> aka getByText('BERITA TERBARU', { exact: true })"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "NEWS05",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 10164,
+      "first_errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeHidden\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('input[placeholder=\"Cari berita...\"]')\nExpected: hidden\nReceived: visible\nTimeout:  7000ms"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "NEWS06",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 14764,
+      "first_errors": [
+        "TimeoutError: page.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n\n\n  4 |   test('Search result with no results', async ({ page }) => {"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "RES01",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 12568,
+      "first_errors": [
+        "TimeoutError: page.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"search\"]')\u001b[22m\n\n\n  4 |   test('should not break layout', async ({ page }) => {"
+      ]
+    },
+    {
+      "condition": "B0_repaired",
+      "run": "seed55",
+      "scenario_id": "RES02",
+      "perturbation_id": null,
+      "perturbation_kind": null,
+      "repeats": 1,
+      "outcomes": [
+        "failed"
+      ],
+      "final_outcome": "failed",
+      "flaky": false,
+      "passed_count": 0,
+      "mean_duration_ms": 3934,
+      "first_errors": [
+        "TypeError: page.locator(...).toBeVisible is not a function\n\n   7 |     await page.fill('input[name=\"password\"]', 'wrong-password');\n   8 |     await page.click('button[type=\"submit\"]');\n>  9 |     await expect(page.locator('input[name=\"username\"]').toBeVisible());\n     |                                                         ^"
+      ]
+    }
+  ]
+}

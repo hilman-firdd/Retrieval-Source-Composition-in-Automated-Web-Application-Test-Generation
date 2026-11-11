@@ -101,7 +101,17 @@
 
   "analysis": {
     "alpha": 0.05,
+    "protocol": "seed-only (5 seeds, temperature 0.2); greedy run reported separately",
+    "unitOfAnalysis": "scenario (mean over 5 seeds)",
+    "primaryOutcome": "passed",
+    "coPrimaryOutcome": "selector_validity",
+    "test": "Wilcoxon signed-rank, two-sided, per scenario",
+    "multiplicity": "Holm over allComparisons",
+    "effectSize": "paired rank-biserial",
+    "bootstrapResamples": 5000,
+    "bootstrapSeed": 42,
     "primaryComparison": ["B0", "P"],
-    "allComparisons": [["B0", "P"], ["B1", "P"], ["B2", "P"], ["B0", "B2"]]
+    "allComparisons": [["B0", "P"], ["B1", "P"], ["B2", "P"], ["B0", "B2"],
+                       ["P_no_req", "P"], ["P_no_hist", "P"], ["P_no_dom", "P"]]
   }
 }

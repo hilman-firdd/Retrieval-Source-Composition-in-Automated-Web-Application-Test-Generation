@@ -1,0 +1,3191 @@
+{
+  "probedAt": "2026-11-10T22:08:57.277Z",
+  "rows": [
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:main"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "ARTC02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "ARTC03",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Artikel 1",
+        "locator:text=Halaman 2",
+        "locator:text=Artikel 2"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "ARTC04",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type=",
+        "locator:div.result-list"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:button:has-text("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "AUTH02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "AUTH03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "AUTH04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h3:contains("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NEWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:ul.news-list",
+        "locator:main article"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NEWS05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "NEWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed11",
+      "scenario_id": "RES02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "ARTC01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:h3:contains("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "ARTC02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "ARTC03",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Artikel 1",
+        "locator:text=Next page",
+        "locator:text=Artikel 2"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "ARTC04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:button:has-text("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "AUTH02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "AUTH03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "AUTH04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(",
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NEWS01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:h3:contains("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:ul.berita-list",
+        "locator:h1.berita-judul"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NEWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:ul.berita-list"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "NEWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed22",
+      "scenario_id": "RES02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "ARTC02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "ARTC03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "ARTC04",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type=",
+        "locator:div.result-list"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:button:has-text("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "AUTH02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "AUTH03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=These credentials do not match our records."
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "AUTH04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h3:contains("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NEWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:ul.news-list"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:a:has-text("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "NEWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:main"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed33",
+      "scenario_id": "RES02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:main"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "ARTC02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "ARTC03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Artikel 1",
+        "locator:text=Artikel 2"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "ARTC04",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:button:has-text("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "AUTH02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "AUTH03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=These credentials do not match our records."
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "AUTH04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h3:contains("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NEWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:ul.news-list",
+        "locator:main"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NEWS05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "NEWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed44",
+      "scenario_id": "RES02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "ARTC02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:ul.artikel-list",
+        "locator:h1.artikel-title"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "ARTC03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=Artikel 1",
+        "locator:text=Artikel 2"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "ARTC04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:a:has-text("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "AUTH01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:button:has-text("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "AUTH02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button:has-text("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "AUTH03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:text=These credentials do not match our records."
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "AUTH04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:contains(",
+        "locator:article"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NEWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:ul.news-list"
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:a:has-text("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "NEWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__neutral",
+      "run": "seed55",
+      "scenario_id": "RES02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "ARTC01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "ARTC02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:a[test-id="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "ARTC03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id=",
+        "locator:a:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "ARTC04",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:input[placeholder=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "AUTH01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "AUTH02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:[data-test-id=",
+        "locator:button:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "AUTH03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Menu navigasi"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:a:has-text(",
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:a:has-text(",
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV06",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:footer a:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(",
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h3:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NEWS02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NEWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:ul.news-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[placeholder="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "NEWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=",
+        "testid:search-input"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed11",
+      "scenario_id": "RES02",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "testid:username",
+        "testid:password"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:has-text(",
+        "locator:ul.artikel-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "ARTC02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "ARTC03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id=",
+        "locator:a:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "ARTC04",
+      "total_selectors": 4,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
+      "hallucinated_selectors": [
+        "locator:input[type=",
+        "locator:button[type=",
+        "locator:main"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "AUTH01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "AUTH02",
+      "total_selectors": 5,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.6,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "AUTH03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Menu navigasi"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:a[test-id=",
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:a:has-text(",
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV06",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:footer a:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(",
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NAV08",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NEWS01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:ul.news-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NEWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:ul.news-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[placeholder="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "NEWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed22",
+      "scenario_id": "RES02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:has-text(",
+        "locator:ul.artikel-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "ARTC02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:article"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "ARTC03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id=",
+        "locator:a:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "ARTC04",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:input[placeholder=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "AUTH01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "AUTH02",
+      "total_selectors": 5,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 0.6,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "AUTH03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:button:has-text(",
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:a:has-text(",
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV06",
+      "total_selectors": 3,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 0.6667,
+      "hallucinated_selectors": [
+        "locator:footer a:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(",
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NAV08",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h3:contains("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NEWS02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NEWS03",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:ul.news-list",
+        "testid:news-title"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[placeholder="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "NEWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed33",
+      "scenario_id": "RES02",
+      "total_selectors": 4,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:div.error-message",
+        "testid:username",
+        "testid:password"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:has-text(",
+        "locator:ul.artikel-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "ARTC02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:article"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "ARTC03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id=",
+        "locator:a:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "ARTC04",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:input[placeholder=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "AUTH01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "AUTH02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:[data-test-id=",
+        "locator:button:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "AUTH03",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 2,
+      "resolved_anywhere": 2,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:a:has-text(",
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:a:has-text(",
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV06",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:footer a:has-text(",
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(",
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:h3:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:a[test-id="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NEWS03",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:ul.news-list",
+        "testid:news-title"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[placeholder="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "NEWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "RES01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=",
+        "testid:search-input"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed44",
+      "scenario_id": "RES02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "ARTC01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:has-text(",
+        "locator:ul.artikel-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "ARTC02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:a[role="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "ARTC03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:div[data-test-id=",
+        "locator:a:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "ARTC04",
+      "total_selectors": 4,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.25,
+      "hallucinated_selectors": [
+        "locator:input[placeholder=",
+        "locator:button[type=",
+        "locator:main"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "AUTH01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[type=",
+        "locator:button[type="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "AUTH02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:[data-test=",
+        "locator:button:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "AUTH03",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "AUTH04",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:button:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "INF01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:text=Menu navigasi"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "INF02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 3,
+      "resolved_anywhere": 3,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:a:has-text(",
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:a:has-text(",
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV05",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV06",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:footer a:has-text(",
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV07",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text(",
+        "locator:input[name="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NAV08",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NEWS01",
+      "total_selectors": 2,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h3:has-text(",
+        "locator:ul.news-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NEWS02",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:a[test-id="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NEWS03",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:ul.news-list"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NEWS04",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NEWS05",
+      "total_selectors": 2,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.5,
+      "hallucinated_selectors": [
+        "locator:input[placeholder="
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "NEWS06",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG01",
+      "total_selectors": 1,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:h1:has-text("
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "REG02",
+      "total_selectors": 1,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 1,
+      "hallucinated_selectors": []
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "RES01",
+      "total_selectors": 3,
+      "resolved_on_start_page": 1,
+      "resolved_anywhere": 1,
+      "selector_validity": 0.3333,
+      "hallucinated_selectors": [
+        "locator:input[type=",
+        "testid:search-input"
+      ]
+    },
+    {
+      "condition": "B0__rerun",
+      "run": "seed55",
+      "scenario_id": "RES02",
+      "total_selectors": 3,
+      "resolved_on_start_page": 0,
+      "resolved_anywhere": 0,
+      "selector_validity": 0,
+      "hallucinated_selectors": [
+        "locator:input[name=",
+        "testid:username",
+        "testid:password"
+      ]
+    }
+  ]
+}

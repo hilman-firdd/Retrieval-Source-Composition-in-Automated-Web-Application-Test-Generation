@@ -10,6 +10,7 @@
  * Pemakaian:
  *   node scripts/04-static-validate.js
  *   node scripts/04-static-validate.js --dir generated/P/seed11
+ *   node scripts/04-static-validate.js --conditions B0__neutral,B0__rerun --out results/04-static-validation-neutral-ab.json
  */
 
 const fs = require('fs');
@@ -18,7 +19,6 @@ const { spawnSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
 const GENERATED = path.join(ROOT, 'generated');
-const OUT = path.join(ROOT, 'results/04-static-validation.json');
 
 /**
  * Tingkat stabilitas selector, urut dari paling tahan perubahan DOM ke paling rapuh.
@@ -105,11 +105,15 @@ function analyseSource(src) {
 
 function main() {
   const args = process.argv.slice(2);
+  const arg = (f) => (args.includes(f) ? args[args.indexOf(f) + 1] : null);
+  // --out menghindari menimpa results/04-static-validation.json (berisi 7 kondisi utama)
+  const OUT = path.resolve(ROOT, arg('--out') || 'results/04-static-validation.json');
+  const only = arg('--conditions') ? arg('--conditions').split(',') : null;
   const onlyDir = args.includes('--dir') ? path.resolve(ROOT, args[args.indexOf('--dir') + 1]) : null;
 
   const targets = onlyDir
     ? [{ condition: path.basename(path.dirname(onlyDir)), run: path.basename(onlyDir), dir: onlyDir }]
-    : listSpecDirs(GENERATED);
+    : listSpecDirs(GENERATED).filter((t) => !only || only.includes(t.condition));
 
   if (!targets.length) {
     console.error('Tidak ada skrip di generated/. Jalankan scripts/03-generate.py lebih dulu.');
